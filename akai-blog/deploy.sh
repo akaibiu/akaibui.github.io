@@ -4,18 +4,25 @@
 set -e
 
 # 生成静态文件
-npm run build
+npm run docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
+
+# 如果是发布到自定义域名
+# echo 'www.example.com' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:jiangxj2014/jiangxj2014.github.io.git
-git push -f git@gitee.com:jiangxj1314/jiangxj1314.git master:master
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+git push -f git@github.com:akaibiu/akaibui.github.io.git master
 
+# https://github.com/akaibiu/akaibui.github.io.git 个人仓库原地址
+
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 cd -
