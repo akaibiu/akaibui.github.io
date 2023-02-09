@@ -1,4 +1,4 @@
-# :computer: es6语法
+# :computer: ES6
 
 
 

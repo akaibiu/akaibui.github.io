@@ -37,6 +37,9 @@ module.exports = {
           { text: 'Css', link: '/pages/study/css/' },
           { text: 'Javascript', link: '/pages/study/javascript/' },
           { text: 'Vue', link: '/pages/study/vue/' },
+          { text: 'Uniapp', link: '/pages/study/uniapp/' },
+          { text: 'Node.js', link: '/pages/study/node/' },
+          { text: 'React', link: '/pages/study/react/' },
         ]
       },
       { text: '🤼‍♀️', link: '/pages/life/' },
@@ -76,6 +79,9 @@ module.exports = {
       '/pages/study/html/': getSidebar('Html'),
       '/pages/study/javascript/': getSidebar('Javascript', ['array','es6','function','object']),
       '/pages/study/css/': getSidebar('Css'),
+      '/pages/study/uniapp/': getSidebar('Uniapp',['template']),
+      '/pages/study/node/': getSidebar('Node'),
+      '/pages/study/react/': getSidebar('React'),
       '/pages/life/': getLIfeSidebar(),
       '/pages/tools/': getToolsSidebar()
     }

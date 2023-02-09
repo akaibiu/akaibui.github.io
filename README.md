@@ -5,7 +5,7 @@
 
 项目地址：https://static-mp-cc9def39-a2c5-4a82-886d-6c9225613652.next.bspapp.com
 
-项目地址：域名备案正在审核中...
+项目地址：域名备案正在审核中...(https://salephine.asia)
 
 项目地址(gitee)：https://gitee.com/AkaiBlog/akai-blog
 
@@ -38,6 +38,4 @@ VuePress、Webpack
 
 #### 答疑解惑
 
-1. 如有疑问，联系作者 QQ   `1494598731`
-
-   ​                                   WeChat    `Akaibiu`
+1. 如有疑问，联系作者 QQ   `1494598731`       WeChat    `Akaibiu`
