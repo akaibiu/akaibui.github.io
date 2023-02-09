@@ -1,13 +1,13 @@
 ---
 home: true
-heroImage: /img/ct6.gif
+heroImage: /favicon.ico
 heroText: 她说稻城很美
 tagline: 世界上只有一种真正的英雄主义，那就是认清生活的真相后还依然热爱生活。
 actionText: 🌷
 actionLink: /pages/life/
 features:
-- title: 技术支持
-  details: 基于VuePress和gitee搭建部署的个人网站，享受 Vue + webpack 的开发体验。
+- title: 个人介绍
+  details: 练习时长一年半 前端市场混口饭
 - title: 博客概述
   details: Vue、React、uniapp、JavaScript、TypeScript、AnyScript、Html、Css、Node.js、开发学习过程中整理所记录的笔记。
 - title: 小站灯塔

@@ -1,7 +1,15 @@
+/**
+ * @description 在打包时候将 config.js里的写入如下配置 base:'./',dest:'./dist'
+ * 在后续部署时候仅部署dist目录。在运行时候需要注释掉 base:'./'
+ * 
+*/
 module.exports = {
+  base:'/vuepress/',
   title: '', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
   description: '', // meta 中的描述文字，用于SEO  分享笔记，技术博客
-  // 注入到当前页面的 HTML <head> 中的标签
+  base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉次行代码
+  dest: './dist',  
+  // 注到当前页面的 HTML <head> 中的标签
   head: [
     [
       'link',
@@ -106,7 +114,7 @@ function getToolsSidebar() {
     {
       title: '更多',
       collapsable: false,
-      children: ['markdown', 'git','GitWarehouse']
+      children: ['markdown', 'git']
     }
   ];
 }
