@@ -1,16 +1,16 @@
 ---
 home: true
 heroImage: /favicon.ico
-heroText: 她说稻城很美
-tagline: 世界上只有一种真正的英雄主义，那就是认清生活的真相后还依然热爱生活。
+heroText: Mikuya
+tagline: There is only one kind of real heroism in the world, that is, to still love life after recognizing the truth of life!
 actionText: 🌷
 actionLink: /pages/life/
 features:
-- title: 个人介绍
-  details: 练习时长一年半 前端市场混口饭
-- title: 博客概述
-  details: Vue、React、uniapp、JavaScript、TypeScript、AnyScript、Html、Css、Node.js、开发学习过程中整理所记录的笔记。
-- title: 小站灯塔
-  details: 记录日常工作学习生活过程中的所见所得所感所悟。
-footer: MIT Licensed | Copyright © 2023-present Kai Qiu
+- title: Info
+  details: Practice for a year and a half in the front-end market.
+- title: Survey
+  details: Vue、Uniapp、TuniaoUi、Z-paging、Uview-Ui、Element、Element-Admin、JavaScript、Html、Css、Node.js、React、TypeScript、AnyScript.
+- title: Pharos
+  details: Record what you see, get, feel and understand in your daily work, study and life.
+footer: MIT Licensed | Copyright © 2023-present Beauty Zhou
 ---

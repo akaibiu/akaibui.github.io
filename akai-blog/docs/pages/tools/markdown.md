@@ -22,7 +22,7 @@ Markdown 支持 6 种级别的标题，对应 html 标签 **h1 ~ h6**
 
 以上标记效果如下：
 
-![标题效果](/img/tools/title.jpg)
+![标题效果](/img/tools/mdTitle.jpg)
 
 ## 字体
 

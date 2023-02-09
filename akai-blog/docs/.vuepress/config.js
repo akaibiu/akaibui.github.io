@@ -5,7 +5,7 @@
 */
 module.exports = {
   base:'/vuepress/',
-  title: '', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
+  title: '💤', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
   description: '', // meta 中的描述文字，用于SEO  分享笔记，技术博客
   base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉次行代码
   dest: './dist',  
@@ -46,35 +46,35 @@ module.exports = {
         text: '💻', //默认显示
         ariaLabel: '💻', //用于识别的label
         items: [
-          { text: '小许师兄', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
-          { text: '阿凯', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
-          { text: '弃续', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
-          { text:'Z-paging', link: 'https://ext.dcloud.net.cn/publisher?id=201286'},
-          { text: '图鸟', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
+          { text: 'Xzq', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
+          { text: 'AKai', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
+          { text: 'Wx', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
+          { text: 'Zx', link: 'https://ext.dcloud.net.cn/publisher?id=201286'},
+          { text: 'Tn', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
         ]
       },
       {
         text: '🐦', //默认显示
         ariaLabel: '🐦', //用于识别的label
         items: [
-          { text: '小杨❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
-          { text: '阿凯', link: 'https://www.yuque.com/u21729372/kwgz8c' },
+          { text: 'XiaoY❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
+          { text: 'Akai', link: 'https://www.yuque.com/u21729372/kwgz8c' },
         ]
       },
       {
         text: '🎥', //默认显示
         ariaLabel: '🎥', //用于识别的label
         items: [
-          { text: '小许师兄', link: 'https://seniorbrother.com/' },
-          { text: '影视资源', link: 'https://video.isyour.love/player/getplayer' },
-          { text: 'LIBVIO', link: 'https://www.libvio.me/' },
+          { text: 'Xzq', link: 'https://seniorbrother.com/' },
+          { text: 'Player', link: 'https://video.isyour.love/player/getplayer' },
+          { text: 'Libvio', link: 'https://www.libvio.me/' },
         ]
       },
     ],
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue'),
       '/pages/study/html/': getSidebar('Html'),
-      '/pages/study/javascript/': getSidebar('Javascript', ['array']),
+      '/pages/study/javascript/': getSidebar('Javascript', ['array','es6','function','object']),
       '/pages/study/css/': getSidebar('Css'),
       '/pages/life/': getLIfeSidebar(),
       '/pages/tools/': getToolsSidebar()

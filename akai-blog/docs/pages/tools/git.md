@@ -1,6 +1,36 @@
 # :snowman_with_snow:Git 命令
+**常用命令:**
+>第一天进入公司时候需要拉取公司代码
+```sh
+git clone 项目地址
+```
+>编写代码之后准备做提交-提交至本地仓库(第一步骤)
+```sh
+git add .
+```
+>填写提交日志(第二步骤)
+```sh
+git commit -m "填写commit说明"
+```
+>拉取仓库最新代码(第三步骤)
+```sh
+git pull origin master
+```
+>提交代码到远程仓库(第四步骤)
+```sh
+git push origin master
+```
+>第二天从仓库拉取最新代码(次日更新代码之后便可开始工作-之后就是add commit等)
+```sh
+git pull origin master
+```
 
-基础命令：
+
+
+
+
+
+**基础命令：**
 
 ```sh
 git init                                                  # 初始化本地git仓库（创建新仓库）
