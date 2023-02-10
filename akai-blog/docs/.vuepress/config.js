@@ -40,6 +40,7 @@ module.exports = {
           { text: 'Uniapp', link: '/pages/study/uniapp/' },
           { text: 'Node.js', link: '/pages/study/node/' },
           { text: 'React', link: '/pages/study/react/' },
+          { text: 'Dcloud Plugin ReadMe', link: '/pages/study/dcloud-plugin/' },
         ]
       },
       { text: '🤼‍♀️', link: '/pages/life/' },
@@ -82,6 +83,7 @@ module.exports = {
       '/pages/study/uniapp/': getSidebar('Uniapp',['template']),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
+      '/pages/study/dcloud-plugin/': getSidebar('Dcloud Plugin ReadMe'),
       '/pages/life/': getLIfeSidebar(),
       '/pages/tools/': getToolsSidebar()
     }
