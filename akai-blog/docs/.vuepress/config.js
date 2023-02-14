@@ -83,7 +83,7 @@ module.exports = {
       '/pages/study/uniapp/': getSidebar('Uniapp',['template']),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
-      '/pages/study/dcloud-plugin/': getSidebar('Dcloud Plugin ReadMe'),
+      '/pages/study/dcloud-plugin/': getSidebar('Dcloud Plugin ReadMe',['Akai-sy','Akai-hy']),
       '/pages/life/': getLIfeSidebar(),
       '/pages/tools/': getToolsSidebar()
     }
