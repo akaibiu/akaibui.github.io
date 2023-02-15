@@ -78,7 +78,7 @@ module.exports = {
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue'),
       '/pages/study/html/': getSidebar('Html'),
-      '/pages/study/javascript/': getSidebar('Javascript', ['array','es6','function','object']),
+      '/pages/study/javascript/': getSidebar('Javascript', ['array','es6','function','object','JS手机号加密']),
       '/pages/study/css/': getSidebar('Css'),
       '/pages/study/uniapp/': getSidebar('Uniapp',['template']),
       '/pages/study/node/': getSidebar('Node'),

@@ -1575,3 +1575,21 @@
   "transgender_flag": "🏳️‍⚧️",
   "pirate_flag": "🏴‍☠️",
   }
+浅红色文字：<font bgcolor='#007aff' color="#dd0000" size="4">浅红色文字：</font><br /> 
+深红色文字：<font color="#660000">深红色文字</font><br /> 
+浅绿色文字：<font color="#00dd00">浅绿色文字</font><br /> 
+深绿色文字：<font color="#006600">深绿色文字</font><br /> 
+浅蓝色文字：<font color="#0000dd">浅蓝色文字</font><br /> 
+深蓝色文字：<font color="#000066">深蓝色文字</font><br /> 
+浅黄色文字：<font color="#dddd00">浅黄色文字</font><br /> 
+深黄色文字：<font color="#666600">深黄色文字</font><br /> 
+浅青色文字：<font color="#00dddd">浅青色文字</font><br /> 
+深青色文字：<font color="#006666">深青色文字</font><br /> 
+浅紫色文字：<font color="#dd00dd">浅紫色文字</font><br /> 
+深紫色文字：<font color="#660066">深紫色文字</font><br /> 
+<font face="黑体">我是黑体字</font>
+<font face="宋体">我是宋体字</font>
+<font face="微软雅黑">我是微软雅黑字</font>
+<font face="fantasy">我是fantasy字</font>
+<font face="Helvetica">我是Helvetica字</font>
+

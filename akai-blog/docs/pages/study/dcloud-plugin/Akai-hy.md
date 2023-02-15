@@ -1,5 +1,5 @@
 # :computer: Dcloud插件市场-Akai-hy插件使用说明文档
-* Dcloud插件市场原地址 [!uniapp快速开发模板]()
+* Dcloud插件市场原地址 [!uniapp快速开发模板](https://ext.dcloud.net.cn/plugin?id=10882)
 * Gitee插件克隆地址[!uniapp快速开发模板](https://gitee.com/AkaiBlog/akai-uni)
 * >Gitee仓库内文件说明
 * >>Akai-xz(`普通基础版本，仅集成Tuniao-Ui一个框架`)
