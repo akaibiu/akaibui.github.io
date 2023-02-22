@@ -38,6 +38,22 @@ uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自�
 
 - [Emoji](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
 
+## :sunflower:学习网站
+- [JavaScript事件循环机制,宏任务和微任务讲解](https://juejin.cn/post/7112616745508012062)
+- [JavaScript日常开发小技巧](https://juejin.cn/post/7112704104694022152)
+- [数组取值，解构等等](https://juejin.cn/post/7111302214945079310)
+- [面经](https://juejin.cn/post/7016593221815910408)
+- [PC登录](https://juejin.cn/post/7098590812069429284)
+- [uniapp登录](https://juejin.cn/post/7105023071056035877)
+- [友盟+](https://blog.csdn.net/krico233/article/details/122459028)
+- [uniapp上传图片](https://haozhongping.blog.csdn.net/article/details/123108246?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14.pc_relevant_default&utm_relevant_index=20)
+- [uniapp常见功能](https://www.kancloud.cn/wangking/uniapp/1868620)
+- [伪元素](https://juejin.cn/post/6854573204011221000#heading-19)
+- [ES6](https://juejin.cn/post/7016520448204603423)
+- [...]()
+- [...]()
+
+
 ## :snowman_with_snow:网站推荐
 - [创造师](https://www.chuangzaoshi.com/)
 - [高德API](https://lbs.amap.com/)

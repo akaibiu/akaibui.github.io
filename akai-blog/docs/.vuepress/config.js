@@ -4,11 +4,11 @@
  * 
 */
 module.exports = {
-  base:'/vuepress/',
+  base: '/vuepress/',
   title: '💤', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
   description: '', // meta 中的描述文字，用于SEO  分享笔记，技术博客
-  base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉次行代码
-  dest: './dist',  
+  base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
+  dest: './dist',
   // 注到当前页面的 HTML <head> 中的标签
   head: [
     [
@@ -53,7 +53,7 @@ module.exports = {
           { text: 'Xzq', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
           { text: 'AKai', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
           { text: 'Wx', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
-          { text: 'Zx', link: 'https://ext.dcloud.net.cn/publisher?id=201286'},
+          { text: 'Zx', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
           { text: 'Tn', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
         ]
       },
@@ -77,13 +77,13 @@ module.exports = {
     ],
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue'),
-      '/pages/study/html/': getSidebar('Html'),
-      '/pages/study/javascript/': getSidebar('Javascript', ['array','es6','function','object','JS手机号加密']),
-      '/pages/study/css/': getSidebar('Css'),
-      '/pages/study/uniapp/': getSidebar('Uniapp',['template']),
+      '/pages/study/html/': getSidebar('Html',['手机号输入自动调整格式']),
+      '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object', 'JS手机号加密','JS获取自定义时间格式','JS实现防抖节流']),
+      '/pages/study/css/': getSidebar('Css',['css渐变色特效','css放大镜特效','css实现冰墩墩']),
+      '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解','uniapp小程序请求封装案例','uniapp使用animate.css','uniapp小程序自定义导航栏','uniapp小程序使用flex完美布局','uniapp小程序单选多选案例','uniapp小程序使用vedio案例','uniapp小程序左右联动案例','uniapp小程序滑动切换选项卡案例','uniapp-H5授权微信登录','uniapp小程序上传图片案例','uniapp小程序分享','uniapp使用友盟+埋点','uniapp小程序登录授权和手机授权','uniapp小程序返回上页传递参数','uniapp配合HbuilderX使用','uniapp小程序设置动态样式']),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
-      '/pages/study/dcloud-plugin/': getSidebar('Dcloud Plugin ReadMe',['Akai-sy','Akai-hy']),
+      '/pages/study/dcloud-plugin/': getSidebar('Dcloud Plugin ReadMe', ['Akai-sy', 'Akai-hy']),
       '/pages/life/': getLIfeSidebar(),
       '/pages/tools/': getToolsSidebar()
     }
@@ -135,7 +135,7 @@ function getLIfeSidebar() {
     {
       title: '记录生活',
       collapsable: false,
-      children: ['dairy','life']
+      children: ['dairy', 'life']
     }
   ];
 }

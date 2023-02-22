@@ -3,7 +3,7 @@
 
 
 
-* 大家上班好，我是亲爱的小邱果咩纳塞思密达! 今天天气阴沉沉的，没有太阳全是雾霾☁️，正如我写这篇文章的时候没有感情全是技巧。于是我悄悄的记录下了我的第一篇正式不正经的文章。
+* 大家上班好，我是亲爱的小邱果咩纳塞! 今天天气阴沉沉的，没有太阳全是雾霾☁️，正如我写这篇文章的时候没有感情全是技巧。于是我悄悄的记录下了我的第一篇正式不正经的文章。
 
 
 
@@ -17,7 +17,6 @@
 <font color="#0000dd">2.创建一个接收正则表达式的变量；</font><br />
 <font color="#0000dd">3.使用JS的replace方法去替换掉phone中间四位数字</font><br />
 <font color="#0000dd">4.`phoneStr`就是加密后的手机号</font><br />
-<font color="#0000dd">浅蓝色文字</font><br />
 > $1就是代表正则里面的第一个括号括起来的内容 $2就是第二个括号括起来的内容
 > string.repeat(重复次数) 代表重复一个字符串多少次，举个栗子
 `'我喜欢你'.repeat(520)`
@@ -37,7 +36,6 @@ console.log(phoneStr)
 <font color="#00dddd">2.创建一个接收正则表达式的变量；</font><br />
 <font color="#00dddd">3.使用JS的replace方法去替换掉phone中间四位数字</font><br />
 <font color="#00dddd">4.`phoneStr`就是加密后的手机号</font><br />
-<font color="#00dddd">浅蓝色文字</font><br />
 ```
 let phone="18856237821";
 let reg=/^\d{7}(\d{4})$/;
@@ -53,7 +51,6 @@ console.log(phoneStr)
 <font color="#dd00dd">2.创建一个接收正则表达式的变量；</font><br />
 <font color="#dd00dd">3.使用JS的replace方法去替换掉phone中间四位数字</font><br />
 <font color="#dd00dd">4.`phoneStr`就是加密后的手机号</font><br />
-<font color="#dd00dd">浅蓝色文字</font><br />
 ```
 let phone="18856237821";
 let reg=/^(\d{1})\d{8}(\d{2})$/;
