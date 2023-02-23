@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序请求封装案例
+# :meat_on_bone: uniapp小程序请求封装案例
 
 >此篇文章若有疑惑不解之处，欢迎打扰 作者联系微信 Akaibiu (烦请备注说明来意，谢谢)
 

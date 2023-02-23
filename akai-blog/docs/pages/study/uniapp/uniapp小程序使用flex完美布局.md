@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序使用flex实现完美布局
+# :banana: uniapp小程序使用flex实现完美布局
 
 ### 完美flex布局实现(上-左-右以及每个项目之间的间距一样)
 

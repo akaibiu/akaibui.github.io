@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序开发详解
+# :avocado: uniapp小程序开发详解
 
 
 

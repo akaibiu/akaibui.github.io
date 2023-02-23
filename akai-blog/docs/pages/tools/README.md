@@ -1,6 +1,6 @@
 # 小网站
 
-小邱后续会不断更新在工作/学习/生活中遇到的一些常用网站。欢迎您的查阅哟!
+阿凯后续会不断更新在工作/学习/生活中遇到的一些常用网站。欢迎您的查阅哟!
 
 ## :blossom:API调试工具
 
@@ -50,7 +50,7 @@ uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自�
 - [uniapp常见功能](https://www.kancloud.cn/wangking/uniapp/1868620)
 - [伪元素](https://juejin.cn/post/6854573204011221000#heading-19)
 - [ES6](https://juejin.cn/post/7016520448204603423)
-- [...]()
+- [网页下雪](https://api.vvhan.com/api/snow)
 - [...]()
 
 

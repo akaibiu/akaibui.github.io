@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序使用vedio案例
+# :peach: uniapp小程序使用vedio案例
 
 
 

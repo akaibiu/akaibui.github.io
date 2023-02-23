@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序自定义导航栏
+# :peanuts: uniapp小程序自定义导航栏
 
 
 

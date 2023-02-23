@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序使用animate.css库
+# :blossom: uniapp小程序使用animate.css库
 
 
 

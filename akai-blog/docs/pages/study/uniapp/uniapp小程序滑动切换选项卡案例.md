@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序滑动切换选项卡案例
+# :carrot: uniapp小程序滑动切换选项卡案例
 
 
 

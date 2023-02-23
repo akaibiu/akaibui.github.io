@@ -1,4 +1,4 @@
-# :fox_face: uniapp使用友盟+埋点
+# :ear_of_rice: uniapp使用友盟+埋点
 
 
 

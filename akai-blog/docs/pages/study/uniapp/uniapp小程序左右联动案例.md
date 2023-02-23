@@ -1,4 +1,4 @@
-# :fox_face: uniapp小程序左右联动案例
+# :kiwi_fruit: uniapp小程序左右联动案例
 
 
 

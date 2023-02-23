@@ -2,7 +2,7 @@
 
 
 
-# :fox_face: uniapp小程序设置动态样式
+# :baguette_bread: uniapp小程序设置动态样式
 
 
 
