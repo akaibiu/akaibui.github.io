@@ -1,7 +1,7 @@
 # :computer: ES6
 
 
-```
+```javascript
 var street = user.address && user.address.street;
 
 var fooInput = myForm.querySelector('input[name=foo]')

@@ -5,7 +5,7 @@
 >在日常小程序开发中，获取时间格式必不可少，如何获取自定义时间格式呢，接下来一起看看吧....
 
 
-```
+```javascript
 let year = new Date().getFullYear();
 let month = new Date().getMonth() + 1 < 10 ? "0" + (new Date().getMonth() + 1) : new Date().getMonth() + 1;
 let date = new Date().getDate() < 10 ? "0" + new Date().getDate() : new Date().getDate();

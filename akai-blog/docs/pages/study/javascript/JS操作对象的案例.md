@@ -6,8 +6,7 @@
 
 1. JavaScript根据对象某个属性排序（promise 案例）
 
-```
-<script>
+```javascript
     var arr = [
         { name: '阿凯', money: 10 },
         { name: '阿包', money: 15 },
@@ -20,14 +19,13 @@
         return result;
     };
     console.log(arrSortByObjectAttr(arr, 'money'));
-</script>
+
 
 ```
 ![alt 示例图片](/img/study/javascript/JS操作对象的案例/JS对象某个属性排序.jpg)
 
 2. JavaScript根据某个对象属性排序
-```
-<script>
+```javascript
     var newArr = [
         { name: '阿凯', money: 10 },
         { name: '阿包', money: 15 },
@@ -47,12 +45,10 @@
         }
     };
     console.log(newArr.sort(sortBy('money', true)));
-</script>
 ```
 ![alt 示例图片](/img/study/javascript/JS操作对象的案例/JS根据某个对象属性排序二.jpg)
 3. JavaScript根据对象属性排序 
-```
-<script>
+```javascript
     var arr=[
         {name:'阿凯',money:10},
         {name:'阿包',money:15},
@@ -95,14 +91,12 @@
     };
     mydate.sort(sortBy('age',true))
     console.log(mydate,'对象根据字段排序')
-</script>
 ```
 ![alt 示例图片](/img/study/javascript/JS操作对象的案例/JS根据某个对象属性排序三.jpg)
 
 4. 对象解构 
    1. {name: 'ats', pailiang: '2.0T', qudong: '前驱'} 输出代码示例
-```
-<script>
+```javascript
     const res={
         arr:[1,3,4,6,7,5],
         time:'234244',
@@ -115,12 +109,10 @@
     }
     const {ats}=res;
     console.log(ats,'解构');
-</script>
 ```
 5. 获取对象键名的数组
    1. ['arr', 'time', 'age', 'ats'] 输出代码示例
-```
-<script>
+```javascript
     const res={
         arr:[1,3,4,6,7,5],
         time:'234244',
@@ -135,12 +127,10 @@
         return Object.keys(obj)
     };
     console.log(operationObject(res));
-</script>
 ```
 6. 复杂对象解构
     1. {name: 'hhhhh', age: 2322, r: 9}
-```
-<script>
+```javascript
     const ct={
         ats:{
             name:'hh',
@@ -159,7 +149,6 @@
     };
     const {xts}=ct.data;
     console.log(xts,'解构');
-</script>
 ```
 
 1. 对象转数组

@@ -6,8 +6,7 @@
 
 
 
-```
-<script>
+```javascript
     function rgb() {//rgb颜色随机
         const r = Math.floor(Math.random() * 256);
         const g = Math.floor(Math.random() * 256);
@@ -23,7 +22,6 @@
     }
     console.log(rgb());  // rgb(196,109,27)
     console.log(color16())  // #c3696
-</script>
 
 ```
 

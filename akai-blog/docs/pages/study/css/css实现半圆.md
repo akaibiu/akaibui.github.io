@@ -2,7 +2,7 @@
 
 >如何使用css画一个半圆呢 接下来请看表演 复制代码试试吧
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -21,7 +21,7 @@ export function shopSetInApi(params){
 ```
  2. 页面请求代码(一般在于axios封装第三层)
    
-```
+```javascript
             // Check Message Code is Right
 			async checkCode(){
 				let that=this;

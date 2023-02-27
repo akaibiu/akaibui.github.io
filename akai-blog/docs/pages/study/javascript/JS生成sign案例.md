@@ -6,8 +6,8 @@
 
 <font color="#dd00dd">sign一般是有md5加密等操作</font><br />
 
-```
-<script>
+```javascript
+
     const testData = {
         name: '阿凯',
         age: 22,
@@ -29,13 +29,13 @@
         return newData
     };
     console.log(getData(testData))
-</script>
+
 
 ```
 <font color="#dd00dd">sign一般是有md5加密等操作</font><br />
 
-```
-<script>
+```javascript
+
     const obj={
         name: '阿凯',
         age: 22,
@@ -64,7 +64,7 @@
         return newData
     }
     console.log(getSign(obj));
-</script>
+
 ```
 
 

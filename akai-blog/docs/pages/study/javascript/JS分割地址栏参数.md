@@ -4,8 +4,7 @@
 
 >在日常开发学子中，小伙伴儿们肯定会遇到截取地址栏参数的业务，接下来几个案例即可实现，一起看看吧....
 1. 方法一
-```
-<script>
+```javascript
     // 0.创建一个对象
     const obj = {};
     // 1.创建一个模拟url地址
@@ -28,14 +27,12 @@
     console.log(obj);
         // obj:{name:'xiaoqiu',age:22,id:666}
 
-</script>
-
 ```
 ![alt 示例图片](/img/study/javascript/JS分割地址栏参数/one.jpg)
 
 2. 获取url参数对象数组
-```
-<script>
+   
+```javascript
      const url = "https://baidu.com?name=xiaoqiu&age=22&id=66";
     function splitStr(str) {
         // 转为obj
@@ -53,15 +50,13 @@
         });
         }
     console.log(splitStr(url))
-</script>
 ```
 ![alt 示例图片](/img/study/javascript/JS分割地址栏参数/two.jpg)
 
 
-3. 获取url参数列表指定关键字对象
+1. 获取url参数列表指定关键字对象
 
-```
-<script>
+```javascript
     const url = "https://xxxx.xxxx.xxxx.com.cn/index.html?url=pars://pars.xxxx.com/open_url?type=x&url=http://xxxx.xxx.xxx.com/x/xxx?bannerid=123";
     function splitStr(str, key) {
       // 转为obj
@@ -81,15 +76,13 @@
       return resulte;
     }
     console.log(splitStr(url, "bannerid"));
-</script>
 ```
 ![alt 示例图片](/img/study/javascript/JS分割地址栏参数/指定参数.jpg)
 
 
 4. 获取url指定参数,参数对象需修改return返回值(---最适用的---)
    
-```
-<script>
+```javascript
     const url = "https://baidu.com?name=xiaoqiu&age=22&id=66";
     function splitStr(str, key) {
         // 转为obj
@@ -110,7 +103,6 @@
         return resulte;
     }
     console.log(splitStr(url, "age"));
-</script>
 ```
 ![alt 示例图片](/img/study/javascript/JS分割地址栏参数/最优.jpg)
 

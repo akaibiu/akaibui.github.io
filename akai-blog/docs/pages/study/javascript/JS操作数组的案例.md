@@ -6,17 +6,15 @@
 
 1. JS判断数组是否相等
    1. false 输出
-```
-<script>
+```javascript
     let arr1 = [1, 3, 5, 7, 9];
     let arr2 = [1, 3, 5, '7', 9];
     console.log(JSON.stringify(arr1) === JSON.stringify(arr2));
-</script>
 ```
 2. JS操作数组复杂的(将name属性相同的对象的value数组按照对应索引相加)
    
-```
-<script>
+```javascript
+
     var arr=[
         {
             name:'c',
@@ -65,7 +63,7 @@
     let finallyAyy = Object.keys(obj).map(o => { return { "name": o, "value": obj[o] } })
     console.log(finallyAyy);
     console.log(fn(arr))
-</script>
+
 
 ```
 ![alt 示例图片](/img/study/javascript/JS操作数组的案例/数组相同属性遍历.jpg)
@@ -75,8 +73,8 @@
 3. 一维数组转二维数组
    1. 第一个案例 Code by whs
 
-```
-<script>
+```javascript
+
     var arr = [
         { ID: 1, Name: "1" },
         { ID: 2, Name: "2" },
@@ -110,14 +108,14 @@
         return parent;
     };
     console.log(tansformArrayToTree(arr), "-----------一维数组------------");
-</script>
+
 ```
 ![alt 示例图片](/img/study/javascript/JS操作数组的案例/whs.jpg)
 
    2. 第二个案例 Code by wx
    
-```
-<script>
+```javascript
+
     var arr = [
         { ID: 1, Name: "1" },
         { ID: 2, Name: "2" },
@@ -156,7 +154,7 @@
         return newArr;
     }
     console.log(getTreeArr(arr), "---------一维数组--------");
-</script>
+
 ```
 
 ![alt 示例图片](/img/study/javascript/JS操作数组的案例/wx.jpg)
@@ -164,8 +162,8 @@
 
    3. 第三个案例 一维数组转多维数组  <font color="#dd00dd">最最最牛的一个</font><br />
    
-```
-<script>
+```javascript
+
     var nbArr = [
         { ID: 1, Name: "1" },
         { ID: 2, Name: "2" },
@@ -200,15 +198,15 @@
         return list.filter((n) => !n.pid);
     }
     console.log(listTree(fn), '----------多维数组--------');
-</script>
+
 ```
 ![alt 示例图片](/img/study/javascript/JS操作数组的案例/一转多.jpg)
 
 
 4. 数组筛选案例
    
-```
-<script>
+```javascript
+
     let dataMap = new Map([
       ["散装及托盘包装", "a"],
       ["捆包状包装", "b"],
@@ -220,7 +218,7 @@
     let input = "其他形状包装";
     let str1 = dataMap.get(input);
     console.log(str1,'hhhh');  
-  </script>
+  
 ```
 ![alt 示例图片](/img/study/javascript/JS操作数组的案例/数组筛选.jpg)
 

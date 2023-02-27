@@ -136,11 +136,11 @@ module.exports = WXBizDataCrypt
          2. let result=$md5(JSON.stringify(postData)+(newDate().valueOf()siginKey)
          3. result就是md5加密后的数据
 4. 4.原生HTML使用AES加密
-```
+
+```javascript
 <script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
-<script type="text/javascript">
   var aseKey = "12345678"     //秘钥必须为：8/16/32位
-var message = "13785624612";
+   var message = "13785624612";
 
 //加密
 var encrypt = CryptoJS.AES.encrypt(message, CryptoJS.enc.Utf8.parse(aseKey), {
@@ -156,17 +156,13 @@ var decrypt = CryptoJS.AES.decrypt(encrypt, CryptoJS.enc.Utf8.parse(aseKey), {
 }).toString(CryptoJS.enc.Utf8);
 console.log(decrypt);    //13785624612
 
-</script>
 ```
-5. 原色JS使用MD5加密生成验签sign
+1. 原色JS使用MD5加密生成验签sign
 
-```
+```javascript
 	<script src="https://cdn.bootcdn.net/ajax/libs/blueimp-md5/2.19.0/js/md5.js"></script>
-  <script>
      // data 为原始参数对象  key为MD5验签的Key
      let sign=md5(JSON.stringify(data) + (new Date().valueOf()) + 'fdfdffsdfsf'),
-  </script>
-
 ```
 
 <font color="#dd00dd">不想上图了，如有疑问咨询作者</font><br />

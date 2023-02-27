@@ -21,7 +21,8 @@
 > string.repeat(重复次数) 代表重复一个字符串多少次，举个栗子
 `'我喜欢你'.repeat(520)`
 > 将会打印520次'我喜欢你'
-```
+
+```javascript
 let phone="18856237821";
 let reg=/^(\d{3})\d{4}(\d{4})$/;
 const phoneStr=phone.replace(reg,'$1****$2');
@@ -36,7 +37,9 @@ console.log(phoneStr)
 <font color="#00dddd">2.创建一个接收正则表达式的变量；</font><br />
 <font color="#00dddd">3.使用JS的replace方法去替换掉phone中间四位数字</font><br />
 <font color="#00dddd">4.`phoneStr`就是加密后的手机号</font><br />
-```
+
+
+```javascript
 let phone="18856237821";
 let reg=/^\d{7}(\d{4})$/;
 const phoneStr=phone.replace(reg,`${'*'.repeat(7)}$1`);
@@ -51,7 +54,9 @@ console.log(phoneStr)
 <font color="#dd00dd">2.创建一个接收正则表达式的变量；</font><br />
 <font color="#dd00dd">3.使用JS的replace方法去替换掉phone中间四位数字</font><br />
 <font color="#dd00dd">4.`phoneStr`就是加密后的手机号</font><br />
-```
+
+
+```javascript
 let phone="18856237821";
 let reg=/^(\d{1})\d{8}(\d{2})$/;
 const phoneStr=phone.replace(reg,`$1${'*'.repeat(8)}$2`);

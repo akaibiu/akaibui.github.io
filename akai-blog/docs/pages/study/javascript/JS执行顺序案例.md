@@ -9,8 +9,7 @@
 
 
 1. 第一个案例
-```
-<script>
+```javascript
     function getNum(){
       return new Promise(function(resolve,reject){
           setTimeout(() => {
@@ -48,14 +47,12 @@
        console.log('D')
    });
    console.log(res)
-</script>
 
 ```
 ![alt 示例图片](/img/study/javascript/JS执行顺序案例/执行顺序输出.jpg)
 
 2. 第二个案例
-```
-<script>
+```javascript
     const count = 10;
     // async 要和await配合使用 且: async await 后只能是函数Function
     async function test() {
@@ -91,15 +88,13 @@
         }
     };
     test();
-</script>
 ```
 
 ![alt 示例图片](/img/study/javascript/JS执行顺序案例/执行顺序输出二.jpg)
 
 3. 第三个案例 async和await 执行顺序
 
-```
-<script>
+```javascript
     async function async1() {
         console.log('async1 start');
         await async2();
@@ -111,7 +106,6 @@
     console.log('script start');
     async1();
     console.log('script end')
-</script>
 ```
 
 ![alt 示例图片](/img/study/javascript/JS执行顺序案例/async.jpg)
@@ -119,8 +113,7 @@
 
 4. 第四个案例 async await 执行顺序
 
-```
-<script>
+```javascript
     async function one() {
         console.log('第一个输出的');
         await two();
@@ -135,7 +128,6 @@
         console.log('第四个输出的');
     };
     console.log(one());
-</script>
 ```
 
 ![alt 示例图片](/img/study/javascript/JS执行顺序案例/await.jpg)

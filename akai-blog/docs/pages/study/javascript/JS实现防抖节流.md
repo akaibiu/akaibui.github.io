@@ -5,8 +5,7 @@
 >在日常小程序开发中，需要用到防抖节流的业务可不少，举个栗子，一起看看吧....
 
 1. 在pages目录之外定义一个utils文件目录，里面创建一个utill.js文件
-```
-<script>
+```javascript
     //防抖函数 立即执行版本
     let debounceNow = function (func, wait) {
         let timeout
@@ -76,16 +75,15 @@
         throttleSetTime,
         debounceNow
     }
-</script>
 ```
 
 2. 页面使用时候
 
-```
+```javascript
 import utilFn from '@/utils/utils.js'
-// 在点击事件使用
-click:utilFn.debounceNow(function(){
-console.log('防抖节流')
+    // 在点击事件使用
+    click:utilFn.debounceNow(function(){
+    console.log('防抖节流')
 })
 
 ```
