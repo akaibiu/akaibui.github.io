@@ -9,7 +9,7 @@
 
 
 #### 1.以下是B页面的代码(选择了一些数据,e 就是选择的参数)
-```
+```javascript
 checkLocation(e) {
   uni.$emit("handClick", { data: e });
   uni.navigateBack({
@@ -21,7 +21,7 @@ checkLocation(e) {
 
 #### 2.以下是A页面的代码(从B选择了数据需要返回到A页面并接收，切记要在onShow钩子函数接收)
 
-```
+```javascript
 onShow(){
   uni.$on("handClick", res => {
     console.log(res,'从B页面传递过来的数据')

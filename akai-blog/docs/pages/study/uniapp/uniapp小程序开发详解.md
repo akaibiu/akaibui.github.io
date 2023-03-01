@@ -79,12 +79,14 @@
         1.大多数小程序下方都有四个菜单选项，便是我们的tabbar，一般可以官方的tabbar，也可自定义tabbar<br />
         2.[Uniapp官方tabbar使用链接](https://uniapp.dcloud.io/collocation/pages?id=tabbar)<br />
         3.示例代码如下<br />
-        ```
+
+        ```javascript
         "tabBar":{"color":"#7A7E83","selectedColor":"#3cc51f","borderStyle":"black","backgroundColor":"#ffffff","
           list":[
           {"pagePath":"pages/component/index","iconPath":"static/image/icon_component.png","selectedIconPath":"static/image/icon_component_HL.png","text":"组件"},		        		  {"pagePath":"pages/API/index","iconPath":"static/image/icon_API.png","selectedIconPath":"static/image/icon_API_HL.png","text":"接口"}
         ]
         }
+        
         ```
 1. <font color="#dd00dd">pagePath为tabbar页面路径，iconpath为tabbar图标，selectedIconPath为tabbar选中激活的图标样式，text为tabbar文本说明(更过参数说明可在上方文档查看)</font><br />
          ![alt 示例图片](/img/study/uniapp/uniapp小程序开发详解/底部导航栏预览.jpg)

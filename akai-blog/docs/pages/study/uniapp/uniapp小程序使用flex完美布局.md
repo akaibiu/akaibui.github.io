@@ -8,7 +8,7 @@
 
 
 #### 1.view视图层代码
-```
+```vue
 <template>
   <view class="wrap">
     <block v-for="(item,index) in 11" :key="index">
@@ -23,7 +23,7 @@
 
 #### 2.style样式代码
 
-```
+```scss
 <style lang="scss" scoped>
     .wrap {
         /**

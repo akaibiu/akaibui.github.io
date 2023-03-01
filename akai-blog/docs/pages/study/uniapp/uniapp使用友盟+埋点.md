@@ -12,7 +12,7 @@
 ![alt 示例图片](/img/study/uniapp/uniapp使用友盟+埋点/必要代码.jpg)
 
 
-```
+```javascript
 (function(w, d, s, q, i) {
 		w[q] = w[q] || [];
 		var f = d.getElementsByTagName(s)[0],
@@ -47,7 +47,7 @@
 * 2.0使用自定义事件
 ![alt 示例图片](/img/study/uniapp/uniapp使用友盟+埋点/事件.jpg)
 
-```
+```javascript
 onHide() {
 			let that=this;
 			// <--------友盟+ 用户关闭退出页面 自定义事件---------->

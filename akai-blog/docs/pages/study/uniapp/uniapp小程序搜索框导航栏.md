@@ -10,7 +10,7 @@
 >将你的`page.json`里面该页面的`"style"`的json对象里面加上`"navigationStyle": "custom"`
 >>以下是页面的完整代码
 
-```
+```vue
 <template>
 	<view class="container">
 		<view class="navFixed">

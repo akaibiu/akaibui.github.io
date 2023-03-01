@@ -8,7 +8,7 @@
 
 
 #### 1.组件代码如下（在components文件夹下创建一个navTab.vue文件）
-```
+```vue
 <template>
 	<view class="uni-status-bar" v-if="navShow">
 		<view class="statusBar" :style="{ height: statusBarHeight,background:statusBacColor}">
@@ -186,17 +186,18 @@
 
 #### 2.如何使用(在main.js引入并全局注册)
 
-```
+```javascript
 import navTab from '@/components/nvaTab/navTab.vue';
 Vue.component('navTab',navTab)
 ```
 
 #### 3.在页面使用组件
-```
+
+```javascript
 <navTab :title="title" :iconShow="iconShow" iconColor="#fff" titleColor="#fff" :statusBacColor="navBackColor" :capsuleBackColor="navBackColor" :navShow="navShow"></navTab>
 ```
 #### 3.1 在页面需要定义的组件数据
-```
+```javascript
 iconShow: false,
   navShow: true,
   title: '',

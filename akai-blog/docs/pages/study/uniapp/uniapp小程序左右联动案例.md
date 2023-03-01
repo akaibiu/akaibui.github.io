@@ -8,7 +8,7 @@
 
 
 
-```
+```vue
 <template>
   <view class="content">
     <scroll-view class="nav-left" scroll-y :style="'height:'+height+'px'" :scroll-top="scrollLeftTop"

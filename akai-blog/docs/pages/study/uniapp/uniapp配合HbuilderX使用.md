@@ -23,7 +23,7 @@
 
 #### 3.然后找到导出的这个对象，在这个对象里面有一个options配置对象。在这个对象里面添加以下配置字段即可
 
-```
+```javascript
 "css": {  
     "preserve_newlines": false,
     "selector_separator_newline": false,  

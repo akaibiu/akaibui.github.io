@@ -14,7 +14,7 @@
 ![alt 示例图片](/img/study/uniapp/uniapp小程序分享/按钮分享.jpg)
 
 
-```
+```javascript
 onLoad(){
 	wx.showShareMenu({
 		withShareTicket:true,

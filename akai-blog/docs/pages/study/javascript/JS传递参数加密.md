@@ -6,7 +6,7 @@
 1. uniapp参数加密(传输给后端参数加密)
    1. 1.使用npm install crypto 下载加密所需文件
    2. 2.在项目根目录下创建一个utils文件夹，创建一个encryption.js文件写入如下代码块
-```
+```javascript
 let CryptoJS = require('crypto-js');
 	// Crypto加密方法封装
  const aesUtil = {
@@ -43,7 +43,7 @@ let CryptoJS = require('crypto-js');
       1. 在需要使用加密的页面引入encryption.js文件
          1. import Encry from '@/utils/encryption.js'
       2. 2.在使用的页面引入与后端约定的key(非常重要，可以挂载全局变量)，example: const key="cd10239350d94d639cba546a876c0daa"
-   ```
+   ```javascript
    //  初始化自定义参数
     const key="cd10239350d94d639cba546a876c0daa";  // 前端与后端约定的共同协议密匙key
     const postData={
@@ -68,7 +68,7 @@ let CryptoJS = require('crypto-js');
    ```
 2. 解密后端返回参数
    1. 在utils文件夹内创建一个WXBizDataCrypt.js文件，写入以下代码
-```
+```javascript
 var crypto = require('crypto')
 
 function WXBizDataCrypt(appId, sessionKey) {
@@ -110,7 +110,7 @@ module.exports = WXBizDataCrypt
       1. 在需要使用的页面引入该文件
          1. import WXBizDataCrypt from '@/utils/WXBizDataCrypt.js'
       2. 2.例如手机号授权的时候
-```
+```javascript
     // 1.首先通过uni.login获取到sessionKey并用变量保存
     // 2.通过手机号授权获取到encryptedData和iv
     // 3.接下来解密数据获取手机号

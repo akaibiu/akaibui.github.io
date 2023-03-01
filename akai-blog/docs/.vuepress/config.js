@@ -7,7 +7,7 @@ module.exports = {
   base: '/vuepress/',
   title: ' ', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
   description: '', // meta 中的描述文字，用于SEO  分享笔记，技术博客
-  base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
+  // base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
   dest: './dist',
   // 注到当前页面的 HTML <head> 中的标签
   head: [

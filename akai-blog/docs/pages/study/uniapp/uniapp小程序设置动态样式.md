@@ -12,7 +12,7 @@
 
 
 
-```
+```vue
 <template>
     <view>
 		<view class="" :style="{'background': data.avatar == ''? 

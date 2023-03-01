@@ -7,14 +7,14 @@
 >在日常小程序开发中，肯定会涉及到uniapp小程序登录授权和获取用户手机号授权的功能业务，以下代码便可实现此业务功能，一起看看吧....
 
 #### 1.首先在页面上设计一个按钮button 登录授权如下
-```
+```html
 <button class="bottom" type='primary' @click="getUserProfile">
   微信登录授权
 </button>
 ```
 #### 2.以下是这个按钮的JS代码部分
 
-```
+```javascript
 getUserProfile:(function() {
   var that = this
   // #ifdef MP-WEIXIN
@@ -52,7 +52,7 @@ getUserProfile:(function() {
 ```
 
 #### 3.获取手机号码授权 先在页面创建一个按钮并且设置按钮的type
-```
+```html
 <button class='bottom' type='primary' open-type="getPhoneNumber" @getphonenumber="PhoneNumber">
   点击授权手机登录
 </button>
@@ -60,7 +60,7 @@ getUserProfile:(function() {
 
 #### 4.以下是获取手机号码授权的JS代码
 
-```
+```javascript
 PhoneNumber(e) {
   let that = this;
   // 用户拒绝手机授权
@@ -109,7 +109,7 @@ PhoneNumber(e) {
 
 #### 5.uniapp检查用户登录状态 使用checkSession
 
-```
+```javascript
 uni.checkSession({
   success: function(res) {
     // sessionKey一般适用于后端用户保存用户首次登录注册后的唯一id(首次登录注册用户，登录过去只是登录账号不注册用户)

@@ -8,7 +8,7 @@
 
 
 
-```
+```vue
 <template>
 	<view class="page">
 		<video id="myVideo" :src="vedioList[current].src"

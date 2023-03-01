@@ -10,7 +10,7 @@
 
 
 
-```
+```javascript
 async getLoginState() {
 				let that = this;
 				if (uni.getStorageSync('YZstrUserInfo')) { //如果本地存在用户信息

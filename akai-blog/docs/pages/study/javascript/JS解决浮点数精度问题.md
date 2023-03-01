@@ -34,7 +34,7 @@
             r = (arguments[i] * m + r * m) / m;
         }
         return r
-    }
+    },
     const result = addNum(0.1, 0.2)
     console.log(result);
     // 输出 0.3

@@ -4,7 +4,7 @@
 
 #### 1. 首先在项目根目录创建`utils`文件夹和`api`文件夹和`config`文件夹。
 *    config: 项目公共配置文件夹,在此目录下创建`config.js`文件(写入常用的全局变量、项目请求地址等全局配置)
-```
+```javascript
 module.exports = {
   baseUrl:process.env.NODE_ENV === 'development'?"http://192.168.87.00":"htpp://dev.lucklnk.com",   // development本地环境  production 生产环境
   openid:'openid', 																						// 用户openid
@@ -33,7 +33,7 @@ module.exports = {
 ```
 
 #### 2. 在`utils`文件夹内创建`request.js`文件。并且写入请求的常规配置文件
-```
+```javascript
 import config from '@/config/config.js'; // 引入项目配置文件(里面包含baseUrl等全局配置信息)
 const TokenKey = "token"; // 本地存储的token健名(一般为token或者access_token)
 let timeout = 10000;    // 请求的超时时间设置
@@ -165,7 +165,7 @@ export default request
 ```
 
 #### 3.在`api`文件夹内创建`apis.js`文件，具体配置如下
-```
+```javascript
 // 引入request文件夹内的request.js文件内暴露的request函数
 import request from '@/request/request.js';	  // REQUEST FUNCTION
 /**
@@ -202,8 +202,7 @@ export function getUserinfoApi(param) {
 
 #### 4.使用咱们封装的`request`请求具体示例代码如下所示(页面使用)
 
-```
-<script>
+```javascript
 // 首先在页面中的script标签内引入接口api函数
 	import {loginApi} from '@/apis/api.js';
 	export default {
@@ -234,7 +233,6 @@ export function getUserinfoApi(param) {
 			},
 		}
 	}
-</script>
 
 
 ```

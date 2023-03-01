@@ -6,7 +6,7 @@
 
 1. apis封装代码（一般在于axios封装第二层）
 
-```
+```javascript
 // 商家店铺入驻 used
 export function shopSetInApi(params){
 	return request({

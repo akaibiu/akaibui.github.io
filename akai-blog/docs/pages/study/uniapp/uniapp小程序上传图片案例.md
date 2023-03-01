@@ -10,7 +10,7 @@
 
 
 
-```
+```vue
 <template>
 	<view class="imgUploadBox">
 		<view class="houseImg" v-for="(item,index) in fileList" :key="index">
