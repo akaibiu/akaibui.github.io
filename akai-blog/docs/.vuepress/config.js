@@ -7,7 +7,7 @@ module.exports = {
   base: '/vuepress/',
   title: ' ', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
   description: '', // meta 中的描述文字，用于SEO  分享笔记，技术博客
-  // base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
+  base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
   dest: './dist',
   // 注到当前页面的 HTML <head> 中的标签
   head: [
@@ -43,6 +43,7 @@ module.exports = {
           { text: 'Dcloud Plugin ReadMe', link: '/pages/study/dcloud-plugin/' },
         ]
       },
+      { text: '📖', link: '/pages/book/' },
       { text: '🤼‍♀️', link: '/pages/life/' },
       { text: '🎞️', link: '/pages/tools/' },
       //格式三：跳转至外部网页，需http/https前缀
@@ -84,7 +85,8 @@ module.exports = {
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
       '/pages/study/dcloud-plugin/': getSidebar('Dcloud Plugin ReadMe', ['Akai-sy', 'Akai-hy']),
-      '/pages/life/': getLIfeSidebar(),
+      '/pages/life/': getLifeSidebar(),
+      '/pages/book/': getBookSidebar(),
       '/pages/tools/': getToolsSidebar()
     }
   },
@@ -129,13 +131,26 @@ function getToolsSidebar() {
 /**
  * @description 获取LIFE生活类目侧边栏函数
 */
-function getLIfeSidebar() {
+function getLifeSidebar() {
   return [
     '',
     {
       title: '记录生活',
       collapsable: false,
       children: ['dairy', 'life']
+    }
+  ];
+}
+/**
+ * @description 获取BOOK摘录类目侧边栏函数
+*/
+function getBookSidebar() {
+  return [
+    '',
+    {
+      title: '学习笔记',
+      collapsable: false,
+      children: ['html','css','javascript','es6','vue','react','more']
     }
   ];
 }

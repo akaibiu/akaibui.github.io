@@ -26,7 +26,7 @@
             r = 0
         var len = arguments.length
         for (let i = 0; i < len; i++) {
-            l.push(arguments[i].toString().split(".")[1].length)
+            l.push(arguments[i].toString().split('.')[1]?.length || 0)
         }
         m = Math.pow(10, Math.max(...l));
         // 计算

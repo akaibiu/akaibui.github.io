@@ -12,5 +12,8 @@ features:
   details: Vue、Uniapp、TuniaoUi、Z-paging、Uview-Ui、Element、Element-Admin、JavaScript、Html、Css、Node.js、React、TypeScript、AnyScript.
 - title: Pharos
   details: Record what you see, get, feel and understand in your daily work, study and life.
-footer: MIT Licensed | Copyright © 2023-present Beauty Zhou
 ---
+
+<font color="#31C9E8">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;MIT Licensed | Copyright © 2023-present Beauty Mikuya</font>&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#dd00dd">[蜀ICP备2023003936号](https://beian.miit.gov.cn)</font> 
+
+
