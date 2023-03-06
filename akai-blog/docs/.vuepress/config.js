@@ -28,6 +28,9 @@ module.exports = {
     nav: [
       //格式一：直接跳转，'/'为不添加路由，跳转至首页
       { text: '🏡', link: '/' },
+      { text: '📖', link: '/pages/book/'},
+      { text: '⛱️', link: '/pages/tools/' },
+      { text: '🧸', link: '/pages/dcloud-plugin/' },
       //格式二：添加下拉菜单，link指向的文件路径
       {
         text: '📚', //默认显示
@@ -40,41 +43,26 @@ module.exports = {
           { text: 'Uniapp', link: '/pages/study/uniapp/' },
           { text: 'Node.js', link: '/pages/study/node/' },
           { text: 'React', link: '/pages/study/react/' },
-          { text: 'Dcloud Plugin ReadMe', link: '/pages/study/dcloud-plugin/' },
         ]
       },
-      { text: '📖', link: '/pages/book/' },
-      { text: '🤼‍♀️', link: '/pages/life/' },
-      { text: '🎞️', link: '/pages/tools/' },
       //格式三：跳转至外部网页，需http/https前缀
       {
         text: '💻', //默认显示
         ariaLabel: '💻', //用于识别的label
         items: [
-          { text: 'Mr.Xu', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
-          { text: 'AKai', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
-          { text: 'Mr.Wang', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
-          { text: 'Mr.Zhao', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
-          { text: 'Tuniao', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
+          { text: '许师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
+          { text: '阿凯作品集', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
+          { text: '王师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
+          { text: '照相作品集', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
+          { text: '图鸟作品集', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
+          { text: 'XiaoY-Yuque❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
+          { text: 'Akai-Yuque', link: 'https://www.yuque.com/u21729372/kwgz8c' },
+          { text: 'Senior-Web', link: 'https://seniorbrother.com/' },
+          { text: 'Player-Movie', link: 'https://video.isyour.love/player/getplayer' },
+          { text: 'Libvio-Movie', link: 'https://www.libvio.me/' },
         ]
       },
-      {
-        text: '🐦', //默认显示
-        ariaLabel: '🐦', //用于识别的label
-        items: [
-          { text: 'XiaoY❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
-          { text: 'Akai', link: 'https://www.yuque.com/u21729372/kwgz8c' },
-        ]
-      },
-      {
-        text: '🎥', //默认显示
-        ariaLabel: '🎥', //用于识别的label
-        items: [
-          { text: 'Senior', link: 'https://seniorbrother.com/' },
-          { text: 'Player', link: 'https://video.isyour.love/player/getplayer' },
-          { text: 'Libvio', link: 'https://www.libvio.me/' },
-        ]
-      },
+      { text: '🤦', link: '/pages/life/' },
     ],
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue'),
@@ -84,9 +72,9 @@ module.exports = {
       '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解','uniapp小程序请求封装案例','uniapp使用animate.css','uniapp小程序搜索框导航栏','uniapp小程序自定义导航栏','uniapp小程序使用flex完美布局','uniapp小程序单选多选案例','uniapp小程序使用vedio案例','uniapp小程序左右联动案例','uniapp小程序滑动切换选项卡案例','uniapp-H5授权微信登录','uniapp小程序上传图片案例','uniapp小程序分享','uniapp使用友盟+埋点','uniapp小程序登录授权和手机授权','uniapp小程序返回上页传递参数','uniapp配合HbuilderX使用','uniapp小程序设置动态样式']),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
-      '/pages/study/dcloud-plugin/': getSidebar('Dcloud Plugin ReadMe', ['Akai-sy', 'Akai-hy']),
       '/pages/life/': getLifeSidebar(),
       '/pages/book/': getBookSidebar(),
+      '/pages/dcloud-plugin/': getDcloudPluginInfoSidebar(),
       '/pages/tools/': getToolsSidebar()
     }
   },
@@ -142,6 +130,19 @@ function getLifeSidebar() {
   ];
 }
 /**
+ * @description 获取LIFE生活类目侧边栏函数
+*/
+function getDcloudPluginInfoSidebar() {
+  return [
+    '',
+    {
+      title: '更多',
+      collapsable: false,
+      children: ['more']
+    }
+  ];
+}
+/**
  * @description 获取BOOK摘录类目侧边栏函数
 */
 function getBookSidebar() {
@@ -151,6 +152,11 @@ function getBookSidebar() {
       title: '学习笔记',
       collapsable: false,
       children: ['html','css','javascript','es6','vue','react','more']
+    },
+    {
+      title: '学习收录',
+      collapsable: false,
+      children: ['daily','interview']
     }
   ];
 }
