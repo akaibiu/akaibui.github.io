@@ -53,6 +53,7 @@ module.exports = {
           { text: '许师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
           { text: '阿凯作品集', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
           { text: '王师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
+          { text: '柒分糖合集', link: 'https://sevensugar.com'},
           { text: '照相作品集', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
           { text: '图鸟作品集', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
           { text: 'XiaoY-Yuque❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
