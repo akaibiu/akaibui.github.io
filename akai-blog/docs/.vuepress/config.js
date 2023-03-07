@@ -20,7 +20,62 @@ module.exports = {
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
-  plugins: ['@vuepress/back-to-top'],
+  plugins: [
+    // 回到顶部组件
+    '@vuepress/back-to-top',
+    // 复制版权
+    [
+      'copyright',
+      {
+        authorName: '亲爱的小邱', // 选中的文字将无法被复制
+        minLength: 30,    // 如果长度超过  40 个字符
+      },
+    ], 
+    // 音乐播放器
+    [
+      '@vuepress-reco/vuepress-plugin-bgm-player',
+      {
+        audios: [
+          {
+            name: '童话镇',
+            artist: 'Yifa Chen',
+            url: 'https://m.hifini.com/music/demo.%E7%AB%A5%E8%AF%9D%E9%95%87.m4a',
+            cover: 'https://img2.baidu.com/it/u=1924557926,3395467185&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=281'
+          }
+        ],
+        // 是否默认缩小
+        autoShrink: true,
+        // 缩小时缩为哪种模式
+        shrinkMode: 'float',
+        // 悬浮窗样式
+        floatStyle: { bottom: '10px', 'z-index': '999999' }
+      }
+    ],
+    // 看板娘目前有问题 待修复中...
+    // [
+    //   '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+    //   {
+    //     theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16']
+    //   }
+    // ],
+    ['@vuepress-reco/vuepress-plugin-kan-ban-niang',{
+      theme: ["blackCat"],
+      clean: false,
+      info: 'https://github.com/akaibiu',
+      messages: {
+        welcome: '欢迎您来到阿凯的小站!',
+        home: '心里的花，我想要带你回家',
+        theme: '好吧，希望你能喜欢我的其他小伙伴。',
+        close: '再见哦'
+      }
+    }],
+    // 鼠标点击烟花特效
+    ['cursor-effects', {
+      size: 2, // size of the particle, default: 2
+      shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
+      zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    }]
+  ],
   themeConfig: {
     logo: '/favicon.ico', //网页顶端导航栏左上角的图标
     lastUpdated: '最近更新',
@@ -28,7 +83,7 @@ module.exports = {
     nav: [
       //格式一：直接跳转，'/'为不添加路由，跳转至首页
       { text: '🏡', link: '/' },
-      { text: '📖', link: '/pages/book/'},
+      { text: '📖', link: '/pages/book/' },
       { text: '⛱️', link: '/pages/tools/' },
       { text: '🧸', link: '/pages/dcloud-plugin/' },
       //格式二：添加下拉菜单，link指向的文件路径
@@ -53,7 +108,7 @@ module.exports = {
           { text: '许师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
           { text: '阿凯作品集', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
           { text: '王师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
-          { text: '柒分糖合集', link: 'https://sevensugar.com'},
+          { text: '柒分糖合集', link: 'https://sevensugar.com' },
           { text: '照相作品集', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
           { text: '图鸟作品集', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
           { text: 'XiaoY-Yuque❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
@@ -67,10 +122,10 @@ module.exports = {
     ],
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue'),
-      '/pages/study/html/': getSidebar('Html',['手机号输入自动调整格式','H5手机号自动调整格式','简单的H5模块']),
-      '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object','JS解决浮点数精度问题','JS操作数组的案例','JS操作对象的案例','JS分割地址栏参数','JS执行顺序案例','JS生成sign案例','JS传递参数加密', 'JS手机号加密','JS使用地址栏传递参数','JS获取自定义时间格式','JS实现防抖节流','JS生成随机颜色']),
-      '/pages/study/css/': getSidebar('Css',['css渐变色特效','css放大镜特效','css实现冰墩墩','css实现书签效果','css实现半圆','css实现梯形']),
-      '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解','uniapp小程序请求封装案例','uniapp使用animate.css','uniapp小程序搜索框导航栏','uniapp小程序自定义导航栏','uniapp小程序使用flex完美布局','uniapp小程序单选多选案例','uniapp小程序使用vedio案例','uniapp小程序左右联动案例','uniapp小程序滑动切换选项卡案例','uniapp-H5授权微信登录','uniapp小程序上传图片案例','uniapp小程序分享','uniapp使用友盟+埋点','uniapp小程序登录授权和手机授权','uniapp小程序返回上页传递参数','uniapp配合HbuilderX使用','uniapp小程序设置动态样式']),
+      '/pages/study/html/': getSidebar('Html', ['手机号输入自动调整格式', 'H5手机号自动调整格式', '简单的H5模块']),
+      '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object', 'JS解决浮点数精度问题', 'JS操作数组的案例', 'JS操作对象的案例', 'JS分割地址栏参数', 'JS执行顺序案例', 'JS生成sign案例', 'JS传递参数加密', 'JS手机号加密', 'JS使用地址栏传递参数', 'JS获取自定义时间格式', 'JS实现防抖节流', 'JS生成随机颜色']),
+      '/pages/study/css/': getSidebar('Css', ['css渐变色特效', 'css放大镜特效', 'css实现冰墩墩', 'css实现书签效果', 'css实现半圆', 'css实现梯形']),
+      '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解', 'uniapp小程序请求封装案例', 'uniapp使用animate.css', 'uniapp小程序搜索框导航栏', 'uniapp小程序自定义导航栏', 'uniapp小程序使用flex完美布局', 'uniapp小程序单选多选案例', 'uniapp小程序使用vedio案例', 'uniapp小程序左右联动案例', 'uniapp小程序滑动切换选项卡案例', 'uniapp-H5授权微信登录', 'uniapp小程序上传图片案例', 'uniapp小程序分享', 'uniapp使用友盟+埋点', 'uniapp小程序登录授权和手机授权', 'uniapp小程序返回上页传递参数', 'uniapp配合HbuilderX使用', 'uniapp小程序设置动态样式']),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
       '/pages/life/': getLifeSidebar(),
@@ -152,12 +207,12 @@ function getBookSidebar() {
     {
       title: '学习笔记',
       collapsable: false,
-      children: ['html','css','javascript','es6','vue','react','more']
+      children: ['html', 'css', 'javascript', 'es6', 'vue', 'react', 'more']
     },
     {
       title: '学习收录',
       collapsable: false,
-      children: ['daily','interview']
+      children: ['daily', 'interview']
     }
   ];
 }
