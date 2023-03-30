@@ -7,7 +7,7 @@ module.exports = {
   base: '/vuepress/',
   title: ' ', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
   description: '', // meta 中的描述文字，用于SEO  分享笔记，技术博客
-  base:'./',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
+  // base: './',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
   dest: './dist',
   // 注到当前页面的 HTML <head> 中的标签
   head: [
@@ -30,7 +30,7 @@ module.exports = {
         authorName: '亲爱的小邱', // 选中的文字将无法被复制
         minLength: 30,    // 如果长度超过  40 个字符
       },
-    ], 
+    ],
     // 音乐播放器
     [
       '@vuepress-reco/vuepress-plugin-bgm-player',
@@ -58,7 +58,7 @@ module.exports = {
     //     theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16']
     //   }
     // ],
-    ['@vuepress-reco/vuepress-plugin-kan-ban-niang',{
+    ['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
       theme: ["blackCat"],
       clean: false,
       info: 'https://github.com/akaibiu',
@@ -74,7 +74,7 @@ module.exports = {
       size: 2, // size of the particle, default: 2
       shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
       zIndex: 999999999, // z-index property of the canvas, default: 999999999
-    }]
+    }],
   ],
   themeConfig: {
     logo: '/favicon.ico', //网页顶端导航栏左上角的图标
@@ -105,9 +105,9 @@ module.exports = {
         text: '💻', //默认显示
         ariaLabel: '💻', //用于识别的label
         items: [
-          { text: '许师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
+          { text: '许老师师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
           { text: '阿凯作品集', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
-          { text: '王师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
+          { text: '王老师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
           { text: '柒分糖合集', link: 'https://sevensugar.com' },
           { text: '照相作品集', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
           { text: '图鸟作品集', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
@@ -122,7 +122,7 @@ module.exports = {
     ],
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue'),
-      '/pages/study/html/': getSidebar('Html', ['手机号输入自动调整格式', 'H5手机号自动调整格式', '简单的H5模块']),
+      '/pages/study/html/': getSidebar('Html', ['手机号输入自动调整格式', 'H5手机号自动调整格式', '简单的H5模块','可拖拽进度条']),
       '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object', 'JS解决浮点数精度问题', 'JS操作数组的案例', 'JS操作对象的案例', 'JS分割地址栏参数', 'JS执行顺序案例', 'JS生成sign案例', 'JS传递参数加密', 'JS手机号加密', 'JS使用地址栏传递参数', 'JS获取自定义时间格式', 'JS实现防抖节流', 'JS生成随机颜色']),
       '/pages/study/css/': getSidebar('Css', ['css渐变色特效', 'css放大镜特效', 'css实现冰墩墩', 'css实现书签效果', 'css实现半圆', 'css实现梯形']),
       '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解', 'uniapp小程序请求封装案例', 'uniapp使用animate.css', 'uniapp小程序搜索框导航栏', 'uniapp小程序自定义导航栏', 'uniapp小程序使用flex完美布局', 'uniapp小程序单选多选案例', 'uniapp小程序使用vedio案例', 'uniapp小程序左右联动案例', 'uniapp小程序滑动切换选项卡案例', 'uniapp-H5授权微信登录', 'uniapp小程序上传图片案例', 'uniapp小程序分享', 'uniapp使用友盟+埋点', 'uniapp小程序登录授权和手机授权', 'uniapp小程序返回上页传递参数', 'uniapp配合HbuilderX使用', 'uniapp小程序设置动态样式']),

@@ -12,6 +12,7 @@
 ![alt 示例图片](/img/study/uniapp/uniapp使用友盟+埋点/必要代码.jpg)
 
 
+
 ```javascript
 (function(w, d, s, q, i) {
 		w[q] = w[q] || [];

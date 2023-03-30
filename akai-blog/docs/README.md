@@ -6,11 +6,11 @@ tagline: 世界上只有一种真正的英雄主义，那就是在认清生活�
 actionText: 🌷
 actionLink: /pages/life/
 features:
-- title: 小站作者
-  details: 一个练习时长不是很长的前端工程师儿
-- title: 技术集合
+- title: Website
+  details: Vuepress+uniCloud,域名4块钱买的，服务器租的。项目开源在github和gitee上的。
+- title: Author
   details: Vue、Uniapp、TuniaoUi、Z-paging、Uview-Ui、Element、Element-Admin、JavaScript、Html、Css、Node.js、React、TypeScript、AnyScript not very good!
-- title: 有一束光
+- title: Sunshine
   details: 黑暗笼罩万物，我将是黑暗中最后的那道曙光，以雷霆击碎黑暗!
 ---
 
