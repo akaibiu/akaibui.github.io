@@ -33,7 +33,7 @@
             <font color="#dd00dd"> 2.右上角详情点击找到'appid'选项，用公司申请的正式appid替换掉你之前的测试appid(appid可登录微信公众平台获取)</font><br />
             ![alt 示例图片](/img/study/uniapp/uniapp小程序开发详解/微信公众平台获取appid.jpg)<br />
         4.4.微信公众平台可查看小程序版本(体验版本，审核版本,线上版本)，开发设置可查看项目成员和域名白名单配置<br />
-            <font color="#dd00dd">下方有账号设置，便可查看appid(前提你的是开发者或者管理人员)</font><br />
+            <font color="#dd00dd">下方有账号设置，便可查看appid(前提你得是开发者或者管理人员)</font><br />
             ![alt 示例图片](/img/study/uniapp/uniapp小程序开发详解/查看appid.jpg)<br />
         4.5 如果发现如下报错[查看文档:](https://www.jianshu.com/p/b70e4a4dc04a)<br />
             ![alt 示例图片](/img/study/uniapp/uniapp小程序开发详解/app.json报错.jpg)<br />
