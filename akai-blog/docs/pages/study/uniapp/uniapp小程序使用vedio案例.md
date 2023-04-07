@@ -1,9 +1,9 @@
-# :peach: uniapp小程序使用vedio案例
+# :peach: uniapp小程序使用vidio案例
 
 
 
 
->在日常开发中，也许会遇到视频播放的业务，下面这个小案例带您了解uniapp小程序内vedio标签使用以及弹幕的使用!一起来看看吧....
+>在日常开发中，也许会遇到视频播放的业务，下面这个小案例带您了解uniapp小程序内vidio标签使用以及弹幕的使用!一起来看看吧....
 
 
 
@@ -11,7 +11,7 @@
 ```vue
 <template>
 	<view class="page">
-		<video id="myVideo" :src="vedioList[current].src"
+		<video id="myVideo" :src="vidioList[current].src"
 		 @error="videoErrorCallback" :danmu-list="danmuList" :show-loading="true" enable-danmu danmu-btn controls :poster="posterSrc[current].src"></video>
 		  <u--textarea v-model="danmuValue" placeholder="请输入弹幕内容!(例如:一天到晚在那儿嘿嘿嘿)" ></u--textarea>
 		 <view class="btnList">
@@ -61,7 +61,7 @@
 					{src:'https://iconfont.alicdn.com/t/bc432a9e-b50e-4525-9ddf-a756fa4c43c8.png@500h_500w.png'},
 					{src:'https://iconfont.alicdn.com/t/97f36b15-c8ce-4c2d-a08d-dc97a2ddbecc.png@500h_500w.png'},	
 				],
-				vedioList:[
+				vidioList:[
 					{src:'https://bbkvideos.obs.cn-east-3.myhuaweicloud.com:443/1529827736779018242%E9%A9%B4%E5%B0%8F%E5%BC%9F%E5%8F%98%E7%9F%B3%E5%A4%B4%EF%BC%88%E4%B8%8A%E4%BC%A0%E7%89%88%EF%BC%89%E8%AE%B2%E8%A7%A3%E7%89%88%281%29.mp4'},
 					{src:'https://bbkvideos.obs.cn-east-3.myhuaweicloud.com:443/1529803567022526466%E8%B0%A2%E8%B0%A2%E4%BD%A0%EF%BC%8C%E9%98%BF%E5%AB%B2%EF%BC%88%E4%B8%8A%E4%BC%A0%E7%89%88%EF%BC%89%E5%B9%BF%E5%91%8A%E7%89%88.mp4'},
 					{src:'https://bbkvideos.obs.cn-east-3.myhuaweicloud.com:443/1529755236636348417%E5%B0%8F%E6%98%9F%E6%98%9F%E7%9A%84%E5%A4%A7%E6%9C%88%E9%A5%BC%EF%BC%88%E4%B8%8A%E4%BC%A0%E7%89%88%29%E8%AE%B2%E8%A7%A3%E7%89%88.mp4'},

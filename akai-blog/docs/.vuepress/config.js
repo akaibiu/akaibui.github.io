@@ -51,24 +51,6 @@ module.exports = {
         floatStyle: { bottom: '10px', 'z-index': '999999' }
       }
     ],
-    // 看板娘目前有问题 待修复中...
-    // [
-    //   '@vuepress-reco/vuepress-plugin-kan-ban-niang',
-    //   {
-    //     theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16']
-    //   }
-    // ],
-    ['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
-      theme: ["blackCat"],
-      clean: false,
-      info: 'https://github.com/akaibiu',
-      messages: {
-        welcome: '欢迎您来到阿凯的小站!',
-        home: '心里的花，我想要带你回家',
-        theme: '好吧，希望你能喜欢我的其他小伙伴。',
-        close: '再见哦'
-      }
-    }],
     // 鼠标点击烟花特效
     ['cursor-effects', {
       size: 2, // size of the particle, default: 2
@@ -98,6 +80,7 @@ module.exports = {
           { text: 'Uniapp', link: '/pages/study/uniapp/' },
           { text: 'Node.js', link: '/pages/study/node/' },
           { text: 'React', link: '/pages/study/react/' },
+          { text: '小程序', link: '/pages/study/小程序/' },
         ]
       },
       //格式三：跳转至外部网页，需http/https前缀
@@ -105,15 +88,15 @@ module.exports = {
         text: '💻', //默认显示
         ariaLabel: '💻', //用于识别的label
         items: [
-          { text: '许老师师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
-          { text: '阿凯作品集', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
-          { text: '王老师作品集', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
-          { text: '柒分糖合集', link: 'https://sevensugar.com' },
-          { text: '照相作品集', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
-          { text: '图鸟作品集', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
+          { text: 'Dcloud-Xu', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
+          { text: 'Dcloud-Akai', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
+          { text: 'Dcloud-Wang', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
+          { text: 'Dcloud-Zx', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
+          { text: 'DCloud-Tn', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
           { text: 'XiaoY-Yuque❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
           { text: 'Akai-Yuque', link: 'https://www.yuque.com/u21729372/kwgz8c' },
           { text: 'Senior-Web', link: 'https://seniorbrother.com/' },
+          { text: 'Sugar-Web', link: 'https://sevensugar.com' },
           { text: 'Player-Movie', link: 'https://video.isyour.love/player/getplayer' },
           { text: 'Libvio-Movie', link: 'https://www.libvio.me/' },
         ]
@@ -124,10 +107,11 @@ module.exports = {
       '/pages/study/vue/': getSidebar('Vue'),
       '/pages/study/html/': getSidebar('Html', ['手机号输入自动调整格式', 'H5手机号自动调整格式', '简单的H5模块','可拖拽进度条']),
       '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object', 'JS解决浮点数精度问题', 'JS操作数组的案例', 'JS操作对象的案例', 'JS分割地址栏参数', 'JS执行顺序案例', 'JS生成sign案例', 'JS传递参数加密', 'JS手机号加密', 'JS使用地址栏传递参数', 'JS获取自定义时间格式', 'JS实现防抖节流', 'JS生成随机颜色']),
-      '/pages/study/css/': getSidebar('Css', ['css渐变色特效', 'css放大镜特效', 'css实现冰墩墩', 'css实现书签效果', 'css实现半圆', 'css实现梯形']),
+      '/pages/study/css/': getSidebar('Css', ['css渐变色特效', 'css放大镜特效', 'css实现冰墩墩', 'css实现书签效果', 'css实现半圆', 'css实现梯形','css抖动输入框','css实现梯形选项卡']),
       '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解', 'uniapp小程序请求封装案例','uniapp小程序完美请求封装','uniapp来自雷总的请求封装', 'uniapp使用animate.css', 'uniapp小程序搜索框导航栏', 'uniapp小程序自定义导航栏', 'uniapp小程序使用flex完美布局', 'uniapp小程序单选多选案例', 'uniapp小程序使用vedio案例', 'uniapp小程序左右联动案例', 'uniapp小程序滑动切换选项卡案例', 'uniapp-H5授权微信登录', 'uniapp小程序上传图片案例', 'uniapp小程序分享', 'uniapp使用友盟+埋点', 'uniapp小程序登录授权和手机授权', 'uniapp小程序返回上页传递参数', 'uniapp配合HbuilderX使用', 'uniapp小程序设置动态样式']),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
+      '/pages/study/小程序/': getSidebar('小程序'),
       '/pages/life/': getLifeSidebar(),
       '/pages/book/': getBookSidebar(),
       '/pages/dcloud-plugin/': getDcloudPluginInfoSidebar(),
