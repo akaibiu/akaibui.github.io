@@ -13,17 +13,146 @@
 
 ## :laughing:2023-04-08
 * Today:`2023-04-08`
+* Week:Sat
+* Weather:☀️
+* Mood:😚
+  
+<font color="#dd00dd">周六睡觉...写代码</font><br />
+
+## :sweat_smile:2023-04-09
+
+* Today:`2023-04-09`
+* Week:Sun
+* Weather:☀️
+* Mood:😚
+  
+<font color="#dd00dd">周天睡觉...写代码</font><br />
+
+## :sweat_smile:2023-04-10
+
+* Today:`2023-04-10`
+* Week:Mon
+* Weather:☀️
+* Mood:😚
+  
+<font color="#dd00dd">周一综合征，今天好热..🥵</font><br />
+
+
+## :sweat_smile:2023-04-11
+
+* Today:`2023-04-11`
+* Week:Tues
+* Weather:☀️
+* Mood:😚
+  
+<font color="#dd00dd">周二好热...</font><br />
+
+
+
+## :sweat_smile:2023-04-12
+
+* Today:`2023-04-12`
+* Week:Wed
+* Weather:☀️
+* Mood:😚
+  
+<font color="#dd00dd">周三也热...</font><br />
+
+
+## :sweat_smile:2023-04-13
+
+* Today:`2023-04-13`
+* Week:Thurs
+* Weather:☀️
+* Mood:😚
+  
+<font color="#dd00dd">周四也热...</font><br />
+
+## :sweat_smile:2023-04-14
+
+* Today:`2023-04-14`
+* Week:Friday
+* Weather:☀️
+* Mood:😚
+  
+<font color="#dd00dd">期待周末</font><br />
+
+## :sweat_smile:2023-04-15--2023-04-24
+* Today:`2023-04-15`--`2023-04-24`
+* Week:Sunday- Monday
+* Weather:🌦️
+* Mood:🥺
+  
+<font color="#dd00dd">烦躁...</font><br />
+
+## :sweat_smile:~~
+* Today:`2023-04-15`--`2023-04-24`
+* Week:Sunday- Monday
+* Weather:🌦️
+* Mood:🥺
+  
+<font color="#dd00dd">烦躁...</font><br />
+
+
+## :sweat_smile:2023-04-25
+
+* Today:`2023-04-25`
 * Week:
 * Weather:
 * Mood:
   
-<font color="#dd00dd">今天的我：会有什么样的心情呢?</font><br />
+<font color="#dd00dd">...</font><br />
 
-## :sweat_smile:2023-04-9
+## :sweat_smile:2023-04-26
 
-* Today:`2023-04-9`
+* Today:`2023-04-26`
 * Week:
 * Weather:
 * Mood:
   
-<font color="#dd00dd">今天的我：会有什么样的心情呢?</font><br />
+<font color="#dd00dd">...</font><br />
+
+## :sweat_smile:2023-04-27
+
+* Today:`2023-04-27`
+* Week:
+* Weather:
+* Mood:
+  
+<font color="#dd00dd">...</font><br />
+
+## :sweat_smile:2023-04-28
+
+* Today:`2023-04-28`
+* Week:
+* Weather:
+* Mood:
+  
+<font color="#dd00dd">...</font><br />
+
+## :sweat_smile:2023-04-30
+
+* Today:`2023-04-30`
+* Week:
+* Weather:
+* Mood:
+  
+<font color="#dd00dd">...</font><br />
+
+## :sweat_smile:2023-05-01
+
+* Today:`2023-05-01`
+* Week:
+* Weather:
+* Mood:
+  
+<font color="#dd00dd">...</font><br />
+
+## :sweat_smile:2023-05-02
+
+* Today:`2023-05-02`
+* Week:
+* Weather:
+* Mood:
+  
+<font color="#dd00dd">...</font><br />
