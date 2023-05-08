@@ -2,14 +2,14 @@
 
 <br />
 
-<font color="#dd00dd">  &ensp;&ensp;&ensp;&ensp;看到这篇文章的时候，猜想您也正在准备迎接更好的开始，不管当前环境有多么的恶劣，但愿你能一路过关斩将披荆斩棘，希望你早日找到称心如意的工作!</font>
+<font color="#dd00dd">  &ensp;&ensp;&ensp;&ensp;看到这篇文章的时候，猜想您也正在准备迎接更好的开始，不管当前就业环境有多么的恶劣，但愿你能一路过关斩将披荆斩棘，希望你早日找到称心如意的工作!</font>
 <br />
 
 >  &ensp;&ensp;&ensp;&ensp;以下所有面试题资源文章由**阿凯**整理并收录，此栏目为学习内容。供参考学习。此后会不定期更新，谢谢您的关注与支持!
 
 <br />
 
-><font color="#dd00dd"> &ensp;&ensp;&ensp;&ensp;幸福就像是玻璃球，跌在地上会变成很多碎片，无论你怎么努力，都捡不完，但只要你努力了，怎么都会捡到一点。 </font><br /><font color="#dd00dd">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;阿凯 </font><br />
+><font color="#dd00dd"> &ensp;&ensp;&ensp;&ensp;幸福就像是玻璃球，跌在地上会变成很多碎片，无论你怎么努力，都捡不完，但只要你努力了，怎么都会捡到一点。 </font><br /><font color="#dd00dd">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;愿与君共勉 </font><br />
 <br />
 
 
@@ -26,8 +26,6 @@
 
 <font color="#dd00dd">  &ensp;&ensp;&ensp;&ensp;此网站博客模板全套开源，所有文章皆可转载，烦请麻烦大家备注一下出处。所有资源创作整理不易，您可选择赞助作者一杯咖啡☕🌹🌹，希望你前程似锦，祝愿你往后的每一天都是艳阳高照风和日丽!</font><br />
 <br />
-
-> `未成年人`、`大学生`、`应届生`、`待就业`、`已离职`的朋友们千万不要赞赏,我也是一路走过来的，从涉世未深的懵懂青年到步入社会工作的滚刀皮，也经历了一路上的磕磕绊绊所以深知大家不易!如符合以上请勿赞赏!!!
 
 
 <img src="https://mp-544a8cd9-03b3-41fd-9f50-daa7de994b60.cdn.bspapp.com/cloudstorage/350bbf07-8a90-4f73-9ca9-833d583b9759.jpg" width="240"/>

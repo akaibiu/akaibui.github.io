@@ -3,7 +3,10 @@
 
 
 
-
+## :computer:写在前面
+* 网站上关于插件说明也许会有模糊之处，望理解。查看详细说明请前往Dcloud插件链接。如有疑惑欢迎加入交流群!
+* QQ： 531573361
+* WeChat: 目前尚未创建，添加作者微信请备注来意! Akaibiu
 
 ## :1st_place_medal: Akai-xz(Tuniao-Ui)
 * Dcloud插件市场原地址 [!uniapp快速开发模板](https://ext.dcloud.net.cn/plugin?id=10298)

@@ -6,8 +6,8 @@
 module.exports = {
   base: '/vuepress/',
   title: ' ', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称 欢迎来到阿凯的博客
-  description: '', // meta 中的描述文字，用于SEO  分享笔记，技术博客
-  // base: './',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
+  description: '', // meta 中的描述文字
+  base: './',   // 打包时必须使用 ./ 本地运行的时候注释掉此行代码
   dest: './dist',
   // 注到当前页面的 HTML <head> 中的标签
   head: [
@@ -23,24 +23,24 @@ module.exports = {
   plugins: [
     // 回到顶部组件
     '@vuepress/back-to-top',
-    // 复制版权
-    [
-      'copyright',
-      {
-        authorName: '亲爱的小邱', // 选中的文字将无法被复制
-        minLength: 30,    // 如果长度超过  40 个字符
-      },
-    ],
+    // 复制版权(便于用户体验-我已将此功能关闭)
+    // [
+    //   'copyright',
+    //   {
+    //     authorName: '亲爱的小邱', // 选中的文字将无法被复制
+    //     minLength: 30,    // 如果长度超过  40 个字符
+    //   },
+    // ],
     // 音乐播放器
     [
       '@vuepress-reco/vuepress-plugin-bgm-player',
       {
         audios: [
           {
-            name: '童话镇',
-            artist: 'Yifa Chen',
+            name: 'Story Brooke',
+            artist: '想做一只小鹿，徜徉在童话镇...',
             url: 'https://m.hifini.com/music/demo.%E7%AB%A5%E8%AF%9D%E9%95%87.m4a',
-            cover: 'https://img2.baidu.com/it/u=1924557926,3395467185&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=281'
+            cover: '/img/index/logoo.gif'
           }
         ],
         // 是否默认缩小
@@ -65,14 +65,20 @@ module.exports = {
     smoothScroll: true,
     nav: [
       //格式一：直接跳转，'/'为不添加路由，跳转至首页
+      // { text: '🏡', link: '/' },
+      // { text: '📖', link: '/pages/book/' },
+      // { text: '⛱️', link: '/pages/tools/' },
+      // { text: '🧸', link: '/pages/dcloud-plugin/' },
       { text: '🏡', link: '/' },
-      { text: '📖', link: '/pages/book/' },
-      { text: '⛱️', link: '/pages/tools/' },
-      { text: '🧸', link: '/pages/dcloud-plugin/' },
+      { text: '笔记收录', link: '/pages/book/' },
+      { text: '工具整理', link: '/pages/tools/' },
+      { text: '插件说明', link: '/pages/dcloud-plugin/' },
       //格式二：添加下拉菜单，link指向的文件路径
       {
-        text: '📚', //默认显示
-        ariaLabel: '📚', //用于识别的label
+        // text: '📚', //默认显示
+        // ariaLabel: '📚', //用于识别的label
+        text: '文章博客', //默认显示
+        ariaLabel: '文章博客', //用于识别的label
         items: [
           { text: 'Html', link: '/pages/study/html/' },
           { text: 'Css', link: '/pages/study/css/' },
@@ -86,8 +92,10 @@ module.exports = {
       },
       //格式三：跳转至外部网页，需http/https前缀
       {
-        text: '💻', //默认显示
-        ariaLabel: '💻', //用于识别的label
+        // text: '💻', //默认显示
+        // ariaLabel: '💻', //用于识别的label
+        text: '友情链接', //默认显示
+        ariaLabel: '友情链接', //用于识别的label
         items: [
           { text: 'Dcloud-Xu', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
           { text: 'Dcloud-Akai', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
@@ -102,7 +110,7 @@ module.exports = {
           { text: 'Libvio-Movie', link: 'https://www.libvio.me/' },
         ]
       },
-      { text: '🤦', link: '/pages/life/' },
+      { text: '关于作者', link: '/pages/life/' },
     ],
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue'),
