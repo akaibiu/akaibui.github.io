@@ -113,7 +113,7 @@ module.exports = {
       { text: '关于作者', link: '/pages/life/' },
     ],
     sidebar: {
-      '/pages/study/vue/': getSidebar('Vue'),
+      '/pages/study/vue/': getSidebar('Vue',['vue.config.js文件配置说明']),
       '/pages/study/html/': getSidebar('Html', ['手机号输入自动调整格式', 'H5手机号自动调整格式', '简单的H5模块','可拖拽进度条']),
       '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object', 'JS解决浮点数精度问题', 'JS操作数组的案例', 'JS操作对象的案例', 'JS分割地址栏参数', 'JS执行顺序案例', 'JS生成sign案例', 'JS传递参数加密', 'JS手机号加密', 'JS使用地址栏传递参数', 'JS获取自定义时间格式', 'JS实现防抖节流', 'JS生成随机颜色']),
       '/pages/study/css/': getSidebar('Css', ['css渐变色特效', 'css放大镜特效', 'css实现冰墩墩', 'css实现书签效果', 'css实现半圆', 'css实现梯形','css抖动输入框','css实现梯形选项卡']),

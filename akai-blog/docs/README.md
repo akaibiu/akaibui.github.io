@@ -9,7 +9,7 @@ features:
 - title: Author
   details: 男，23岁，今年本命年，四川成都市。户外装备服饰(淘宝)-伯乐户外运动
 - title: Skill
-  details: Vue、Uniapp、TuniaoUi、Uview-Ui、Element、Element-Admin、TDesign、iView、Datav、Tailwind、AOS.js、Shake.css、Effect.css、Animista、GreenSock、Wow.js、JavaScript、Html、Css、 not very good!
+  details: Vue、Uniapp、TuniaoUi、Uview-Ui、Element、Element-Admin、TDesign、iView、Datav、Tailwind、AOS.js、Shake.css、Effect.css、Animista、GreenSock、Wow.js、jQuery、Layui、JavaScript、Html、Css!
 - title: Intro
   details: 团队可以承接—H5、小程序、Uniapp、Web—官网开发、App、后台管理系统。请联系作者唯一合作微信——Akaibiu。秉承宗旨：保质保量-服务至上
 ---
