@@ -115,9 +115,9 @@ module.exports = {
     sidebar: {
       '/pages/study/vue/': getSidebar('Vue',['vue.config.js文件配置说明']),
       '/pages/study/html/': getSidebar('Html', ['手机号输入自动调整格式', 'H5手机号自动调整格式', '简单的H5模块','可拖拽进度条']),
-      '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object', 'JS解决浮点数精度问题', 'JS操作数组的案例', 'JS操作对象的案例', 'JS分割地址栏参数', 'JS执行顺序案例', 'JS生成sign案例', 'JS传递参数加密', 'JS手机号加密', 'JS使用地址栏传递参数', 'JS获取自定义时间格式', 'JS实现防抖节流', 'JS生成随机颜色']),
-      '/pages/study/css/': getSidebar('Css', ['css渐变色特效', 'css放大镜特效', 'css实现冰墩墩', 'css实现书签效果', 'css实现半圆', 'css实现梯形','css抖动输入框','css实现梯形选项卡']),
-      '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解', 'uniapp小程序请求封装案例','uniapp小程序完美请求封装','uniapp来自雷总的请求封装', 'uniapp使用animate.css', 'uniapp小程序搜索框导航栏', 'uniapp小程序自定义导航栏', 'uniapp小程序使用flex完美布局', 'uniapp小程序单选多选案例', 'uniapp小程序使用vedio案例', 'uniapp小程序左右联动案例', 'uniapp小程序滑动切换选项卡案例', 'uniapp-H5授权微信登录', 'uniapp小程序上传图片案例', 'uniapp小程序分享', 'uniapp使用友盟+埋点', 'uniapp小程序登录授权和手机授权', 'uniapp小程序返回上页传递参数', 'uniapp配合HbuilderX使用', 'uniapp小程序设置动态样式']),
+      '/pages/study/javascript/': getSidebar('Javascript', ['array', 'es6', 'function', 'object', 'JS解决浮点数精度问题', 'JS操作数组的案例', 'JS操作对象的案例', 'JS分割地址栏参数', 'JS执行顺序案例', 'JS生成sign案例', 'JS生成sign业务案例','JS传递参数加密', 'JS手机号加密', 'JS使用地址栏传递参数', 'JS获取自定义时间格式', 'JS实现防抖节流', 'JS生成随机颜色']),
+      '/pages/study/css/': getSidebar('Css', ['css渐变色特效', 'css放大镜特效', 'css实现冰墩墩', 'css实现书签效果', 'css实现半圆', 'css实现梯形','css抖动输入框','css渐变文字','css实现三角形','css梯形选项卡']),
+      '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解', 'uniapp小程序请求封装案例','uniapp小程序完美请求封装','uniapp来自雷总的请求封装', 'uniapp使用animate.css', 'uniapp小程序搜索框导航栏', 'uniapp小程序自定义导航栏', 'uniapp小程序使用flex完美布局', 'uniapp小程序单选多选案例', 'uniapp小程序使用vedio案例', 'uniapp小程序左右联动案例', 'uniapp小程序滑动切换选项卡案例', 'uniapp-H5授权微信登录', 'uniapp小程序上传图片案例', 'uniapp小程序分享', 'uniapp使用友盟+埋点', 'uniapp小程序登录授权和手机授权', 'uniapp小程序返回上页传递参数', 'uniapp配合HbuilderX使用', 'uniapp小程序设置动态样式','uniapp实现梯形选项卡',]),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
       '/pages/study/小程序/': getSidebar('小程序'),

@@ -1,4 +1,4 @@
-# :rowboat: css实现梯形选项卡
+# :rowboat: uniapp实现梯形选项卡
 
 
 
@@ -91,7 +91,7 @@
 <font color="#dd00dd">若您需要在原生使用仅需更改部分标签即可</font><br />
 
 
-![alt 示例图片](/img/study/css/css实现梯形选项卡/demo.jpg)
+![alt 示例图片](/img/study/uniapp/uniapp实现梯形选项卡/demo.jpg)
 
 
 
