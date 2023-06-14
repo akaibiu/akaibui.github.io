@@ -120,7 +120,7 @@ module.exports = {
       '/pages/study/uniapp/': getSidebar('uniapp', ['uniapp小程序开发详解', 'uniapp小程序请求封装案例','uniapp小程序完美请求封装','uniapp来自雷总的请求封装', 'uniapp使用animate.css', 'uniapp小程序搜索框导航栏', 'uniapp小程序自定义导航栏', 'uniapp小程序使用flex完美布局', 'uniapp小程序单选多选案例', 'uniapp小程序使用vedio案例', 'uniapp小程序左右联动案例', 'uniapp小程序滑动切换选项卡案例', 'uniapp-H5授权微信登录', 'uniapp小程序上传图片案例', 'uniapp小程序分享', 'uniapp使用友盟+埋点', 'uniapp小程序登录授权和手机授权', 'uniapp小程序返回上页传递参数', 'uniapp配合HbuilderX使用', 'uniapp小程序设置动态样式','uniapp实现梯形选项卡',]),
       '/pages/study/node/': getSidebar('Node'),
       '/pages/study/react/': getSidebar('React'),
-      '/pages/study/小程序/': getSidebar('小程序'),
+      '/pages/study/小程序/': getSidebar('小程序',['小程序反编译爬取源码']),
       '/pages/life/': getLifeSidebar(),
       '/pages/book/': getBookSidebar(),
       '/pages/dcloud-plugin/': getDcloudPluginInfoSidebar(),
