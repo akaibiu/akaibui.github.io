@@ -7,7 +7,7 @@ actionText: 🌷
 actionLink: /pages/life/
 features:
 - title: Author
-  details: 男，23岁，今年本命年，四川成都市。户外装备服饰(淘宝)-伯乐户外运动
+  details: 生活跌跌撞撞,季节来来往往。
 - title: Skill
   details: Vue、Uniapp、TuniaoUi、Uview-Ui、Element、Element-Admin、TDesign、iView、Datav、Tailwind、AOS.js、Shake.css、Effect.css、Animista、GreenSock、Wow.js、jQuery、Layui、JavaScript、Html、Css!
 - title: Intro
