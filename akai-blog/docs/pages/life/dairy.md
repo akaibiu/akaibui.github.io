@@ -85,74 +85,10 @@
   
 <font color="#dd00dd">烦躁...</font><br />
 
-## :sweat_smile:~~
-* Today:`2023-04-15`--`2023-04-24`
-* Week:Sunday- Monday
+## :sweat_smile:2023-04-25
+* Today:`2023-04-25`
+* Week:Sunday- Wed
 * Weather:🌦️
 * Mood:🥺
   
-<font color="#dd00dd">烦躁...</font><br />
-
-
-## :sweat_smile:2023-04-25
-
-* Today:`2023-04-25`
-* Week:
-* Weather:
-* Mood:
-  
-<font color="#dd00dd">...</font><br />
-
-## :sweat_smile:2023-04-26
-
-* Today:`2023-04-26`
-* Week:
-* Weather:
-* Mood:
-  
-<font color="#dd00dd">...</font><br />
-
-## :sweat_smile:2023-04-27
-
-* Today:`2023-04-27`
-* Week:
-* Weather:
-* Mood:
-  
-<font color="#dd00dd">...</font><br />
-
-## :sweat_smile:2023-04-28
-
-* Today:`2023-04-28`
-* Week:
-* Weather:
-* Mood:
-  
-<font color="#dd00dd">...</font><br />
-
-## :sweat_smile:2023-04-30
-
-* Today:`2023-04-30`
-* Week:
-* Weather:
-* Mood:
-  
-<font color="#dd00dd">...</font><br />
-
-## :sweat_smile:2023-05-01
-
-* Today:`2023-05-01`
-* Week:
-* Weather:
-* Mood:
-  
-<font color="#dd00dd">...</font><br />
-
-## :sweat_smile:2023-05-02
-
-* Today:`2023-05-02`
-* Week:
-* Weather:
-* Mood:
-  
-<font color="#dd00dd">...</font><br />
+<font color="#dd00dd" face="楷体" size="5">呃，就从今天开始停止更新吧，我想内耗!... 希望大家快乐幸福！</font>

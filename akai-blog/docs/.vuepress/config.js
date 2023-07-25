@@ -40,7 +40,7 @@ module.exports = {
             name: 'Story Brooke',
             artist: '想做一只小鹿，徜徉在童话镇...',
             url: 'https://m.hifini.com/music/demo.%E7%AB%A5%E8%AF%9D%E9%95%87.m4a',
-            cover: '/img/index/logoo.gif'
+            cover: '/img/index/logo.gif'
           }
         ],
         // 是否默认缩小
@@ -59,7 +59,7 @@ module.exports = {
     }],
   ],
   themeConfig: {
-    logo: '/img/index/logo2.gif', //网页顶端导航栏左上角的图标
+    logo: '/img/index/logo1.gif', //网页顶端导航栏左上角的图标
     lastUpdated: '最近更新',
     size:80,
     smoothScroll: true,
@@ -97,6 +97,9 @@ module.exports = {
         text: '友情链接', //默认显示
         ariaLabel: '友情链接', //用于识别的label
         items: [
+          { text: 'Blog-Hankil', link: 'http://www.hankli.top/' },
+          { text: 'Blog-Star', link: 'https://blog.ahuaaa.cn/about/' },
+          { text: 'Blog-ZX', link: 'https://zxlee.cn/' },
           { text: 'Dcloud-Xu', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
           { text: 'Dcloud-Akai', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
           { text: 'Dcloud-Wang', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },

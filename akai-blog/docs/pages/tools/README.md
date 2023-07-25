@@ -23,6 +23,12 @@ uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自�
 - [Hbuilderx](https://www.dcloud.io/hbuilderx.html)
 - [ToDesk](https://www.todesk.com/)
 - [向日葵](https://sunlogin.oray.com/)
+- [免费图床](https://imgtp.com/)
+- []()
+- []()
+- []()
+- []()
+
 
 
 ## :sunflower:`Emoji`图标
@@ -38,6 +44,7 @@ uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自�
 
 - [Emoji](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
 
+
 ## :sunflower:学习网站
 - [JavaScript事件循环机制,宏任务和微任务讲解](https://juejin.cn/post/7112616745508012062)
 - [JavaScript日常开发小技巧](https://juejin.cn/post/7112704104694022152)
@@ -51,6 +58,7 @@ uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自�
 - [伪元素](https://juejin.cn/post/6854573204011221000#heading-19)
 - [ES6](https://juejin.cn/post/7016520448204603423)
 - [网页下雪](https://api.vvhan.com/api/snow)
+- [特效王网站](https://www.vantajs.com/?effect=waves)
 - [...]()
 
 
@@ -73,9 +81,4 @@ uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自�
 - [...]()
 
 
-
-
-## :sunflower:谷歌书签站点截图
-![css](/img/tools/css.jpg)
-![website](/img/tools/site.jpg)
-![tool](/img/tools/tool.jpg)
+> 网站推荐将不再更新，如有需要获取最新的站点推荐，请联系作者。
