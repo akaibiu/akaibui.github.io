@@ -1,5 +1,5 @@
 /**
- * @description 在打包时候将 config.js里的写入如下配置 base:'./',dest:'./dist'
+ * @function 在打包时候将 config.js里的写入如下配置 base:'./',dest:'./dist'
  * 在后续部署时候仅部署dist目录。在运行时候需要注释掉 base:'./'
  * 
 */
@@ -91,28 +91,7 @@ module.exports = {
         ]
       },
       //格式三：跳转至外部网页，需http/https前缀
-      {
-        // text: '💻', //默认显示
-        // ariaLabel: '💻', //用于识别的label
-        text: '友情链接', //默认显示
-        ariaLabel: '友情链接', //用于识别的label
-        items: [
-          { text: 'Blog-Hankil', link: 'http://www.hankli.top/' },
-          { text: 'Blog-Star', link: 'https://blog.ahuaaa.cn/about/' },
-          { text: 'Blog-ZX', link: 'https://zxlee.cn/' },
-          { text: 'Dcloud-Xu', link: 'https://ext.dcloud.net.cn/publisher?id=239479' },
-          { text: 'Dcloud-Akai', link: 'https://ext.dcloud.net.cn/publisher?id=690316' },
-          { text: 'Dcloud-Wang', link: 'https://ext.dcloud.net.cn/publisher?id=323014' },
-          { text: 'Dcloud-Zx', link: 'https://ext.dcloud.net.cn/publisher?id=201286' },
-          { text: 'DCloud-Tn', link: 'https://ext.dcloud.net.cn/publisher?id=356088' },
-          { text: 'XiaoY-Yuque❀', link: 'https://www.yuque.com/zhiyu-am2tg/wygvhg' },
-          { text: 'Akai-Yuque', link: 'https://www.yuque.com/u21729372/kwgz8c' },
-          { text: 'Senior-Web', link: 'https://seniorbrother.com/' },
-          { text: 'Sugar-Web', link: 'https://sevensugar.com' },
-          { text: 'Player-Movie', link: 'https://video.isyour.love/player/getplayer' },
-          { text: 'Libvio-Movie', link: 'https://www.libvio.me/' },
-        ]
-      },
+      { text: '友情链接', link: '/pages/friendly/' },
       { text: '关于作者', link: '/pages/life/' },
     ],
     sidebar: {
@@ -126,6 +105,7 @@ module.exports = {
       '/pages/study/小程序/': getSidebar('小程序',['小程序反编译爬取源码']),
       '/pages/life/': getLifeSidebar(),
       '/pages/book/': getBookSidebar(),
+      '/pages/friendly/':getFriendlyLinkSidebar(),
       '/pages/dcloud-plugin/': getDcloudPluginInfoSidebar(),
       '/pages/tools/': getToolsSidebar()
     }
@@ -139,7 +119,7 @@ module.exports = {
   }
 };
 /**
- * @description 获取侧边栏类目函数(资源学习文章类目)
+ * @function 获取侧边栏类目函数(资源学习文章类目)
 */
 function getSidebar(title, arr) {
   return [
@@ -156,7 +136,7 @@ function getSidebar(title, arr) {
   ];
 }
 /**
- * @description 获取TOOL工具类目侧边栏函数
+ * @function 获取TOOL工具类目侧边栏函数
 */
 function getToolsSidebar() {
   return [
@@ -169,7 +149,7 @@ function getToolsSidebar() {
   ];
 }
 /**
- * @description 获取LIFE生活类目侧边栏函数
+ * @function 获取LIFE生活类目侧边栏函数
 */
 function getLifeSidebar() {
   return [
@@ -182,7 +162,7 @@ function getLifeSidebar() {
   ];
 }
 /**
- * @description 获取LIFE生活类目侧边栏函数
+ * @function 获取Dcloud插件侧边栏函数
 */
 function getDcloudPluginInfoSidebar() {
   return [
@@ -195,7 +175,20 @@ function getDcloudPluginInfoSidebar() {
   ];
 }
 /**
- * @description 获取BOOK摘录类目侧边栏函数
+ * @function 获取友情链接侧边栏函数
+*/
+function getFriendlyLinkSidebar() {
+  return [
+    '',
+    {
+      title: '更多',
+      collapsable: false,
+      children: ['more']
+    }
+  ];
+}
+/**
+ * @function 获取BOOK摘录类目侧边栏函数
 */
 function getBookSidebar() {
   return [
