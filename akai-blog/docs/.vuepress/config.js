@@ -91,7 +91,7 @@ module.exports = {
         ]
       },
       //格式三：跳转至外部网页，需http/https前缀
-      { text: '友情链接', link: '/pages/friendly/' },
+      // { text: '友情链接', link: '/pages/friendly/' },
       { text: '关于作者', link: '/pages/life/' },
     ],
     sidebar: {
